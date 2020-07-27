@@ -12,6 +12,7 @@ const Movie= new Schema({
     spoken_languages:[],
     poster_url:String,
     poster2_url:String,
+    poster3_url:String,
     urls_movie:[],
     overview_movie:String,
     Director:String,

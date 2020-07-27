@@ -78,11 +78,46 @@ const YearReleaseSpecific = async(req, res)=>{
 
 }
 
+// muestra las urls por hostname y por lenguaje
+const ShowUrlMovies=async(req, res)=>{
+    const idMovie = req.params.idmovie;
+    const hostname = req.query.hostname;
+    const language = req.query.language;
+
+// console.log(idMovie, hostname, language)
+
+    Movie.findById({_id:idMovie},async (err,data)=>{
+        if(err){res.status(400).send({message:'Error query'})}
+        if(!data){res.status(400).send({message:'no found'})}
+        if(data){
+
+            // console.log(data.urls_movie[0].audio);
+            
+            var urlM = new Array;
+            for (let i = 0; i < data.urls_movie.length; i++) {
+                console.log(data.urls_movie[i].audio)
+                if(data.urls_movie[i].hostname===hostname && data.urls_movie[i].audio===language ){
+                    urlM = [...urlM,data.urls_movie[i]];
+                 }
+            }
+                
+            res.status(200).send({movieUrls:urlM})
+            
+        }
+       
+    
+    });
+
+    // console.log(resultMovie);
+    // res.status(200).send({movie:resultMovie})
+
+}
 
 
 module.exports={
     ShowMovies,
     RatingPopularity,
     YearRelease,
-    YearReleaseSpecific
+    YearReleaseSpecific,
+    ShowUrlMovies
 }

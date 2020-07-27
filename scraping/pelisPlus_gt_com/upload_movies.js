@@ -1,7 +1,7 @@
 'use strict'
 
 const Movie = require('../../database/collections/movies');
-const storageMovie = require('../../movies_accion.json');
+const storageMovie = require('../../movies.json');
 const fs = require('fs');
 
 const CorregirTitle= async(titleString)=>{
@@ -76,6 +76,11 @@ const AddEstado=async(urlArray)=>{
     return aux;
 }
 
+const Poster3Url= async(urlPoster)=>{
+    if(!urlPoster)return urlPoster;
+    var newUlr = await urlPoster.replace('280x420','380x570');
+    return newUlr;
+}
 // main --------
 async function UploadMovie(){
 
@@ -88,6 +93,7 @@ async function UploadMovie(){
         storageMovie.movies[i].ratings_popularity = await CorregirRating(storageMovie.movies[i].ratings_popularity);
         storageMovie.movies[i].release_date = await CorregirRelease(storageMovie.movies[i].release_date);
         var YearReleased = await YearRelease(storageMovie.movies[i].release_date);
+        var poster3_url = await Poster3Url(storageMovie.movies[i].poster_url);
         storageMovie.movies[i].urls_movie = await AddEstado(storageMovie.movies[i].urls_movie)
         // console.log(storageMovie);
         var movie = new Movie({
@@ -99,6 +105,7 @@ async function UploadMovie(){
             spoken_languages: storageMovie.movies[i].spoken_languaje,
             poster_url: storageMovie.movies[i].poster_url,
             poster2_url: storageMovie.movies[i].poster2_url?storageMovie.movies[i].poster2_url:'',
+            poster3_url:poster3_url,
             urls_movie: storageMovie.movies[i].urls_movie,
             overview_movie: storageMovie.movies[i].overview_movie,
             Director:'',

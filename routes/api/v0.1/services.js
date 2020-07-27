@@ -30,6 +30,12 @@ route.get('/show/movies/yearspecific',Movies.YearReleaseSpecific)
 
 
 
+// muestra las urls disponibles de una pelicula por id 
+// http://localhost:8000/show/movie/idmovie=5f15fbac4a07a629fc838f95?hostname=upstream.to&&language=es-mx
+// http://localhost:8000/show/movie/idmovie=5f15fbad4a07a629fc838f97?hostname=fembed.com&&language=es-es
+route.get('/show/movie/idmovie=:idmovie', Movies.ShowUrlMovies)
+
+
 // api info
 route.get('/api/info',ApiInfo);
 
