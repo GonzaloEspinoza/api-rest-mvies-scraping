@@ -7,8 +7,8 @@ const Movie = require('../../../database/collections/movies');
 const  ShowMovies = async (req,res)=>{
     var pag = parseInt(req.params.page);
     var page = !pag?1:pag;
-    var skip1 = (page-1)*25;
-    var limit1 = 25;
+    var skip1 = (page-1)*35;
+    var limit1 = 35;
     
     var genere = req.params.genere
     if(!genere)res.status(400).send({error:'se require el genero'})
@@ -28,8 +28,8 @@ const  ShowMovies = async (req,res)=>{
 const RatingPopularity = async(req, res)=>{
     var pag = parseInt(req.params.page) 
     var page = !pag?1:pag;
-    var skit1 = (page-1)*25;
-    var limit1=25;
+    var skit1 = (page-1)*30;
+    var limit1=30;
 
 
     var movies = await Movie.find({}).sort({ratings_popularity:-1})
@@ -47,8 +47,8 @@ const RatingPopularity = async(req, res)=>{
 const YearRelease =async (req,res) =>{
     var pag = parseInt(req.params.page) 
     var page = !pag?1:pag;
-    var skit1 = (page-1)*25;
-    var limit1=25;
+    var skit1 = (page-1)*35;
+    var limit1=35;
 
   const movies = await Movie.find({}).sort({yearRelease:-1})
                     .skip(skit1)
@@ -63,8 +63,8 @@ const YearReleaseSpecific = async(req, res)=>{
     var year = parseInt(req.query.year);
     var pag = parseInt(req.query.page);
     var page = !pag?1:pag;
-    var skit1 = (page-1)*25;
-    var limit1=25;
+    var skit1 = (page-1)*35;
+    var limit1=35;
     console.log(typeof(year));
 
     const movies = await Movie.find({yearRelease:year})

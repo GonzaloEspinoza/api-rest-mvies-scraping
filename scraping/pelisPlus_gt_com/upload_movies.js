@@ -1,7 +1,7 @@
 'use strict'
 
 const Movie = require('../../database/collections/movies');
-const storageMovie = require('../../movies.json');
+const storageMovie = require('../../movies_accion.json');
 const fs = require('fs');
 
 const CorregirTitle= async(titleString)=>{
@@ -69,8 +69,19 @@ const AddEstado=async(urlArray)=>{
     if(!urlArray && urlArray.length>0)return urlArray;
     var aux = [];
     for (let i = 0; i < urlArray.length; i++) {
-        var element =await Object.assign(urlArray[i],{disponible:true});
-        aux[i]=element;
+        var element = await Object.assign(urlArray[i],{disponible:true});
+        // console.log(element);
+        if(element.hostname==="fembed.com"){
+            element.url = await element.url.replace('/f/','/v/');
+            // console.log(element.url)
+        }
+        if(element.hostname==="uptobox.com"){
+            var h ="https://uptostream.com/"
+            var n = await element.url.split('/');
+            element.url= await h+n[n.length-1];
+
+        }
+        aux[i]= await element;
     }
 
     return aux;

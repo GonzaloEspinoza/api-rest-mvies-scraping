@@ -4,7 +4,7 @@ const fs = require('fs');
 
 
 async function ScrapingPelisPlus(){
-    const Url=`https://v1.pelisplusgt.com/genero/accion-XmzUq`;
+    const Url=`https://v1.pelisplusgt.com/`;
 
    const Links = await (async()=>{
         const browser = await puppeteer.launch();
@@ -29,7 +29,7 @@ async function ScrapingPelisPlus(){
     })();
 
     // console.log(Links)
-   await fs.appendFile('storage_urls_accion.json', JSON.stringify(Links),'utf8', (err) => {
+   await fs.appendFile('estrenos-home.json', JSON.stringify(Links),'utf8', (err) => {
         if (err) throw err;
         console.log('The "data to append" was appended to file!');
       });
@@ -127,83 +127,90 @@ const linksDetailMovie=['https://v1.pelisplusgt.com/pelicula/i-am-vengeance-reta
 
 
 
+    try {
+        
+        const url=urlDetail;
+        const data = await (async()=>{
+                const browser = await puppeteer.launch();
+                const page = await browser.newPage();
+                await page.goto(url);
+                await page.screenshot({path: 'scraping/pelisplus-com-detail.png'});
 
-    const url=urlDetail;
-   const data = await (async()=>{
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
-        await page.goto(url);
-        await page.screenshot({path: 'scraping/pelisplus-com-detail.png'});
+                const result = await page.evaluate(()=>{
+                    // var poster_url=document.querySelector('._3iPcB').src;
+                    document.querySelector('._1T7h0')?document.querySelector('._1T7h0').remove:'';
+                    var poster_url = document.location.origin+document.querySelector('._3iPcB').dataset.src;
+                    var poster2_url = document.location.origin + document.querySelector('._17liB').dataset.src;
+                    // var title = document.querySelector('._6sykW a').textContent.trim();
+                    // var rating = document.querySelector('._6sykW strong').textContent;
+                    
+                    var data = [...document.querySelectorAll('._25wzV')].map(d=>d.textContent.trim());
+                    var duracion = (data[0].split(':'))[1];
+                    var estreno = (data[1].split(':'))[1];
+                    var genero = (data[2].split(':'))[1];
+                    var titulo_original = data[3];
+                    var puntuacion = (data[4].split(':'))[1];
+                    var audio = (data[6].split(':'))[1];
 
-        const result = await page.evaluate(()=>{
-            // var poster_url=document.querySelector('._3iPcB').src;
-            document.querySelector('._1T7h0')?document.querySelector('._1T7h0').remove:'';
-            var poster_url = document.location.origin+document.querySelector('._3iPcB').dataset.src;
-            var poster2_url = document.location.origin + document.querySelector('._17liB').dataset.src;
-            // var title = document.querySelector('._6sykW a').textContent.trim();
-            // var rating = document.querySelector('._6sykW strong').textContent;
+                    var description = document.querySelector('._3-H4c').textContent;
+                    var urlMovies = __NUXT__.data[0].movie.mirrors;
+
+                for (let i = 0; i < urlMovies.length; i++) {
+                    urlMovies[i].url = document.location.origin + urlMovies[i].url;
+                    //    urlMovies[i]
+                }
+
+
+                    //formacion del objeto
+                    const Movie = {
+                        title:titulo_original.trim(),
+                        runtime:duracion,
+                        genere:genero,
+                        spoken_languaje:audio,
+                        poster_url:poster_url,
+                        poster2_url:poster2_url,
+                        overview_movie:description,
+                        ratings_popularity:puntuacion,
+                        release_date:estreno,
+                        urls_movie:urlMovies
+                    }   
+
+                    return Movie;
+                })
+
+
+                // console.log(result);
+
+                for (let j = 0; j < result.urls_movie.length; j++) {
+                    console.log(result.urls_movie[j],'scraping -->ur-valido');
+                    console.log(result.title);
+                    var urlmoviesVlidos
+                    try {
+                        
+                        await page.goto(result.urls_movie[j].url)
+                        urlmoviesVlidos = page.url();
+                        console.log('url_movies videos-->',urlmoviesVlidos)
+                        
+                    } catch (error) {
+                        console.log('error ')
+                        urlmoviesVlidos = page.url();
+                        console.log('url_movies videos-->',urlmoviesVlidos)
+
+                    }
+
+                    result.urls_movie[j].url=urlmoviesVlidos;
+                }
+                console.log(result)
+                await browser.close()
+                return result;
+            })()
+
             
-            var data = [...document.querySelectorAll('._25wzV')].map(d=>d.textContent.trim());
-            var duracion = (data[0].split(':'))[1];
-            var estreno = (data[1].split(':'))[1];
-            var genero = (data[2].split(':'))[1];
-            var titulo_original = data[3];
-            var puntuacion = (data[4].split(':'))[1];
-            var audio = (data[6].split(':'))[1];
-
-            var description = document.querySelector('._3-H4c').textContent;
-            var urlMovies = __NUXT__.data[0].movie.mirrors;
-
-           for (let i = 0; i < urlMovies.length; i++) {
-               urlMovies[i].url = document.location.origin + urlMovies[i].url;
-            //    urlMovies[i]
-           }
-
-
-            //formacion del objeto
-            const Movie = {
-                title:titulo_original.trim(),
-                runtime:duracion,
-                genere:genero,
-                spoken_languaje:audio,
-                poster_url:poster_url,
-                poster2_url:poster2_url,
-                overview_movie:description,
-                ratings_popularity:puntuacion,
-                release_date:estreno,
-                urls_movie:urlMovies
-            }   
-
-            return Movie;
-        })
-
-
-        // console.log(result);
-
-        for (let j = 0; j < result.urls_movie.length; j++) {
-            console.log(result.urls_movie[j],'scraping -->ur-valido');
-            var urlmoviesVlidos
-            try {
+            return data;
+        } catch (error) {
                 
-                await page.goto(result.urls_movie[j].url)
-                urlmoviesVlidos = page.url();
-                console.log('url_movies videos-->',urlmoviesVlidos)
-                
-            } catch (error) {
-                console.log('error ')
-                urlmoviesVlidos = page.url();
-                console.log('url_movies videos-->',urlmoviesVlidos)
-
-            }
-
-            result.urls_movie[j].url=urlmoviesVlidos;
+            return {error: 'algo salio mal en la urls..'};
         }
-        console.log(result)
-        await browser.close()
-        return result;
-    })()
-
-    return data;
 }
 
 
