@@ -28,7 +28,7 @@ const Control_scrapin= require('./scraping/pelisPlus_gt_com/control_scraping');
 // Control_scrapin()
 
 const uploadMmovie= require('./scraping/pelisPlus_gt_com/upload_movies');
-// uploadMmovie.UploadMovie();
+uploadMmovie.UploadMovie();
 
 app.listen(PORT,()=>{
     console.log(`Server on port: ${PORT}`)

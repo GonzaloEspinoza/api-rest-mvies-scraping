@@ -1,0 +1,1586 @@
+{
+    "movies": [
+        {
+            "title": "Título original: Rise of the Planet of the Apes",
+            "runtime": " 1h 45m —",
+            "genere": "\n      Acción, \n        Ciencia ficción, \n        Drama, \n        Suspenso",
+            "spoken_languaje": " Latino • Castellano • Subtitulado",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/UgZMkg66JdKt3NDH2pxGgie/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/N9DSBrx2D1P4wnHuKQqkZFG/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/rise-of-the-planet-of-the-apes-AjUnmL",
+            "overview_movie": "Precuela del ya mítico largometraje \"El planeta de los simios\". Will Rodman (James Franco) es un joven científico que está investigando con monos para obtener un tratamiento contra el alzheimer, una enfermedad que afecta a su padre (John Lithgow). Uno de esos primates, al que llaman César (Andy Serkis), experimenta una evolución en su inteligencia tan notable que el protagonista decide llevárselo a su casa para protegerlo. Le ayudará una bella primatóloga llamada Caroline (Freida Pinto).",
+            "ratings_popularity": " 7.6 de 10",
+            "release_date": " 03 de Agosto del 2011 —",
+            "urls_movie": [
+                {
+                    "id": "PaUybvA",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-mtnvag52v0wd.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "4bUyLap",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-q2xjyo7lom6v.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "mzUPoWM",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uptobox.com/llvr46umi6zd",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "Z1UA5QW",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?5h2mwpcyag48n2gf6lqt",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "MWUg1mo",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/thstkniwai46",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "ggUqVaq",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/cTUvU1c3SjA1MjB5R3dUcThINnM0Zz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "1dU8ngV",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-ieiv60sosq4v.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "BjUEQLx",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-vzqqk6ujuwdx.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fdec8b7374cf6117294715338674b2efc153bcde050ca98e26062e0dfb3110a49ff3d94057196fb6d98c58bfa3bdc974e45aecd2e9a2258ef30b8d839a76634c44e2f2ad7718a8825b4675b7d540284659a33d1c57f0d099245bda0a95cca2d96c3616e6f97a58454065c40ccef2b23f15f424d4cdb74921a27345acad31ff0cab81490f8838f7df9ab0efc8c7b6c92e4%2F0A141593971B96030A5AB453F1E0C56A3E11BE0EE460FF4F2F1E3FB870437328.srt",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "OyUk4yj",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-3ugrpuyxb6r1.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "kvUmBdp",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-uw75gvqdgrgj.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fdec8b7374cf6117294715338674b2efc153bcde050ca98e26062e0dfb3110a49ff3d94057196fb6d98c58bfa3bdc974e45aecd2e9a2258ef30b8d839a76634c44e2f2ad7718a8825b4675b7d540284659a33d1c57f0d099245bda0a95cca2d96c3616e6f97a58454065c40ccef2b23f15f424d4cdb74921a27345acad31ff0cab81490f8838f7df9ab0efc8c7b6c92e4%2F0A141593971B96030A5AB453F1E0C56A3E11BE0EE460FF4F2F1E3FB870437328.srt",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "5kU56VQ",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uptobox.com/d6iihxw42noh",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "zPUd3M0",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uptobox.com/q7x09ozfzd6g?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fdec8b7374cf6117294715338674b2efc153bcde050ca98e26062e0dfb3110a49ff3d94057196fb6d98c58bfa3bdc974e45aecd2e9a2258ef30b8d839a76634c44e2f2ad7718a8825b4675b7d540284659a33d1c57f0d099245bda0a95cca2d96c3616e6f97a58454065c40ccef2b23f15f424d4cdb74921a27345acad31ff0cab81490f8838f7df9ab0efc8c7b6c92e4%2F0A141593971B96030A5AB453F1E0C56A3E11BE0EE460FF4F2F1E3FB870437328.srt",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "nOUVrZW",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?5yrjlkgf0o6h1kzzxe7b",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "YbUZvyv",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?1gckyj7cu38mynkxou2t=&c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fdec8b7374cf6117294715338674b2efc153bcde050ca98e26062e0dfb3110a49ff3d94057196fb6d98c58bfa3bdc974e45aecd2e9a2258ef30b8d839a76634c44e2f2ad7718a8825b4675b7d540284659a33d1c57f0d099245bda0a95cca2d96c3616e6f97a58454065c40ccef2b23f15f424d4cdb74921a27345acad31ff0cab81490f8838f7df9ab0efc8c7b6c92e4%2F0A141593971B96030A5AB453F1E0C56A3E11BE0EE460FF4F2F1E3FB870437328.srt",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "xjU5a1o",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/4zi6b3p96shv",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "alUe17B",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/xyd84exhlfbj?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fdec8b7374cf6117294715338674b2efc153bcde050ca98e26062e0dfb3110a49ff3d94057196fb6d98c58bfa3bdc974e45aecd2e9a2258ef30b8d839a76634c44e2f2ad7718a8825b4675b7d540284659a33d1c57f0d099245bda0a95cca2d96c3616e6f97a58454065c40ccef2b23f15f424d4cdb74921a27345acad31ff0cab81490f8838f7df9ab0efc8c7b6c92e4%2F0A141593971B96030A5AB453F1E0C56A3E11BE0EE460FF4F2F1E3FB870437328.srt",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "qkU5ndr",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/VkowMjhYVHdiMHVLNCsyNkdLOWZtUT09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "jYUp2oj",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/R094RVI1emlQdW1pRHZzNk0vYzdrdz09?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fdec8b7374cf6117294715338674b2efc153bcde050ca98e26062e0dfb3110a49ff3d94057196fb6d98c58bfa3bdc974e45aecd2e9a2258ef30b8d839a76634c44e2f2ad7718a8825b4675b7d540284659a33d1c57f0d099245bda0a95cca2d96c3616e6f97a58454065c40ccef2b23f15f424d4cdb74921a27345acad31ff0cab81490f8838f7df9ab0efc8c7b6c92e4%2F0A141593971B96030A5AB453F1E0C56A3E11BE0EE460FF4F2F1E3FB870437328.srt",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "d8UA8pR",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/PqSAH4HSy7B3xj_O1kdFv8IuAA8v6uZaDsdkBJ0fHwEl8fdM--YsAEYtzjCQzDOO",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                },
+                {
+                    "id": "PaUyg6x",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/n3Z7NLQQj5euZfffSamJRSPZYW1i4uwyia6n7_B-oIEOf_kiT_fw_zaNFzG09Bu_",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "4bUy4xP",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/NFD5wYsJmckiGEUgEWEXTpAyS8R4N_TBweXIU49J06G2iPQeSdPI01EL6_UmMB3E",
+                    "hostname": "kiripiliarload.com"
+                }
+            ]
+        },
+        {
+            "title": "Título original: The Butterfly Effect",
+            "runtime": " 1h 53m —",
+            "genere": "\n      Ciencia ficción, \n        Drama, \n        Suspenso",
+            "spoken_languaje": " Latino • Castellano • Subtitulado",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/8PedZEotdqkjUiRr8RxSiM6/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/FUc52pJPiF9skPaKfoo7vnt/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/the-butterfly-effect-QEUvrW",
+            "overview_movie": "Un joven lucha por acceder a los recuerdos de la infancia sublimados. Encuentra una técnica que le permite viajar al pasado, ocupar el cuerpo de su infancia y cambiar la historia. Sin embargo, pronto descubre que cada cambio que realiza tiene consecuencias inesperadas.",
+            "ratings_popularity": " 7.6 de 10",
+            "release_date": " 22 de Enero del 2004 —",
+            "urls_movie": [
+                {
+                    "id": "1dU808j",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-opo6et0krzqj.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "BjUEvE2",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-pr3qjrbbd5n2.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "OyUk7km",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uptobox.com/9d42bee3w5ug",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "kvUmDmz",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?ebxz19ht5yd6764m2u0h",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "5kU5Z52",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/kni26emj0qog",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "zPUdAd4",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/QkcxMWVQZjJFM3hvOXhJdmtZU0h0UT09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "nOUVd5B",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-68wl1pbx7atu.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "YbUZ90k",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-if42sjv744yf.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fa23d19378e876233dd810cf3cef769e1c8c45854c6d9df0cfed9beebfd6b5b43ea4a8351e9924c32c15ad49a9a94fc38019c69b4bb52cc4f772508d337e2b8ac6fefd4cd137b5c591c978945a45aba8089b8077133a1681061252fbc369f784936a22bc0f8391df745b2269af8edf908f0735c7418277f4bc94d466f44ed4b89a9fba9d2d03044764b01b0c605f86a4b%2F8FFAFA5D06229FBDA84AFFE4D16A66EDC761CFA90437E5833D82424E4525EE29.srt",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "4bUye8B",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-d9yp2hy2l3ka.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "mzUP9wP",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-ypj2jxc1svrl.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fa23d19378e876233dd810cf3cef769e1c8c45854c6d9df0cfed9beebfd6b5b43ea4a8351e9924c32c15ad49a9a94fc38019c69b4bb52cc4f772508d337e2b8ac6fefd4cd137b5c591c978945a45aba8089b8077133a1681061252fbc369f784936a22bc0f8391df745b2269af8edf908f0735c7418277f4bc94d466f44ed4b89a9fba9d2d03044764b01b0c605f86a4b%2F8FFAFA5D06229FBDA84AFFE4D16A66EDC761CFA90437E5833D82424E4525EE29.srt",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "Z1UA899",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uptobox.com/rlrdy1rmj3lu",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "MWUgeY2",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uptobox.com/k0egnj151zzi?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fa23d19378e876233dd810cf3cef769e1c8c45854c6d9df0cfed9beebfd6b5b43ea4a8351e9924c32c15ad49a9a94fc38019c69b4bb52cc4f772508d337e2b8ac6fefd4cd137b5c591c978945a45aba8089b8077133a1681061252fbc369f784936a22bc0f8391df745b2269af8edf908f0735c7418277f4bc94d466f44ed4b89a9fba9d2d03044764b01b0c605f86a4b%2F8FFAFA5D06229FBDA84AFFE4D16A66EDC761CFA90437E5833D82424E4525EE29.srt",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "ggUqyND",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?ncswkw56zmyhh1zdlbc6",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "1dU80Vd",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?r4kyu1idxhb8nem6611u=&c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fa23d19378e876233dd810cf3cef769e1c8c45854c6d9df0cfed9beebfd6b5b43ea4a8351e9924c32c15ad49a9a94fc38019c69b4bb52cc4f772508d337e2b8ac6fefd4cd137b5c591c978945a45aba8089b8077133a1681061252fbc369f784936a22bc0f8391df745b2269af8edf908f0735c7418277f4bc94d466f44ed4b89a9fba9d2d03044764b01b0c605f86a4b%2F8FFAFA5D06229FBDA84AFFE4D16A66EDC761CFA90437E5833D82424E4525EE29.srt",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "BjUEvM0",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/naj8zvoym54l",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "OyUk7WO",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/yqc7anoth063?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fa23d19378e876233dd810cf3cef769e1c8c45854c6d9df0cfed9beebfd6b5b43ea4a8351e9924c32c15ad49a9a94fc38019c69b4bb52cc4f772508d337e2b8ac6fefd4cd137b5c591c978945a45aba8089b8077133a1681061252fbc369f784936a22bc0f8391df745b2269af8edf908f0735c7418277f4bc94d466f44ed4b89a9fba9d2d03044764b01b0c605f86a4b%2F8FFAFA5D06229FBDA84AFFE4D16A66EDC761CFA90437E5833D82424E4525EE29.srt",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "kvUmDYO",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/Y25kNlg1KzN5NHhORGRnU21CZnBWZz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "5kU5ZL6",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/QitmZVl2Vzl4MjdqdUVsZndPNkhTZz09?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fa23d19378e876233dd810cf3cef769e1c8c45854c6d9df0cfed9beebfd6b5b43ea4a8351e9924c32c15ad49a9a94fc38019c69b4bb52cc4f772508d337e2b8ac6fefd4cd137b5c591c978945a45aba8089b8077133a1681061252fbc369f784936a22bc0f8391df745b2269af8edf908f0735c7418277f4bc94d466f44ed4b89a9fba9d2d03044764b01b0c605f86a4b%2F8FFAFA5D06229FBDA84AFFE4D16A66EDC761CFA90437E5833D82424E4525EE29.srt",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "BjUEaMk",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/WWIfqvWJiOewguDAslNQ0qpesUJWGRzMo4fOQS5us13W98HSqwjWgYYnKFXPhXrH",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                },
+                {
+                    "id": "OyUkDWQ",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/wq3Ejjgazr7LQZGHr0ZIQCDkX8v9AsJjq2JM2m6HlHYG88bNR17Hj_x-vUGmoPvA",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "kvUmMYj",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/jjEcCmym8dUwpzpK9ecQLU5UkMHWThp8TJLyyIe_KPEVQACuMdzCetRQhn0ZRyO7",
+                    "hostname": "kiripiliarload.com"
+                }
+            ]
+        },
+        {
+            "title": "Título original: Mad Max 2: The Road Warrior",
+            "runtime": " 1h 36m —",
+            "genere": "\n      Acción, \n        Aventura, \n        Ciencia ficción, \n        Suspenso",
+            "spoken_languaje": " Latino • Castellano • Subtitulado",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/LAa7GvAy2sV4WReFk5Lx4Md/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/YheWhukZNt3QvkhZpbCkfsD/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/mad-max-2-the-road-warrior-MWUORp",
+            "overview_movie": "Tras el holocausto nuclear, la gasolina se ha convertido en un bien escaso y muy codiciado. Mad Max, héroe solitario, inicia una lucha sin cuartel para ayudar a una colonia de supervivientes constantemente atacada por un grupo de violentos guerreros que intenta arrebatarle un tanque de gasolina. Max decide ayudar a los defensores del tanque.",
+            "ratings_popularity": " 7.6 de 10",
+            "release_date": " 24 de Diciembre del 1981 —",
+            "urls_movie": [
+                {
+                    "id": "okUbomj",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-hi9cse5lw1zr.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "27UxN8e",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-t56ip6p0q5ts.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "NyUE8r1",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uptobox.com/yyngtwe26t7q",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "QEU5zmd",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?7efbqkdc7lw4aju1d4qc",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "76UQBnL",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/ncts4hggkyf7",
+                    "hostname": "mystream.to",
+                    "selected": true
+                },
+                {
+                    "id": "DdUyrmE",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/anRyYlJub041Y1gzV3dFS01HWDdRZz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "eOUVrY6",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-23ro68q2z4t7.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "30U9rYY",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-797cchpfh2e0.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F339ae10fca0e11e57b89806330710e4b4620414301c08182fd2183a8d1270bec10a40ad9dc2efdfd6669f9c2d36470d25b2d7a8513077d21710896fe39eaa4a227b6513fecfc2f4bf292e64433a707aeb26ae2c68d1c7d8fdc76265f65789dd927bccb71816be3d1540f1c627f18010b5653dad657537a3013829bc5cc5bee77feb43682813ea128e73a1bb4b3be550e%2FBCED3C41EED027789FBF83CF727DAA93FEDADF79BF8009676EB5678F6BA3C8CE.srt",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "LeUQbpr",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-hgwes4twn062.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "RlU210v",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-8z5ta7dwm2hs.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F339ae10fca0e11e57b89806330710e4b4620414301c08182fd2183a8d1270bec10a40ad9dc2efdfd6669f9c2d36470d25b2d7a8513077d21710896fe39eaa4a227b6513fecfc2f4bf292e64433a707aeb26ae2c68d1c7d8fdc76265f65789dd927bccb71816be3d1540f1c627f18010b5653dad657537a3013829bc5cc5bee77feb43682813ea128e73a1bb4b3be550e%2FBCED3C41EED027789FBF83CF727DAA93FEDADF79BF8009676EB5678F6BA3C8CE.srt",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "0nUAlDL",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uptobox.com/rch9zgktakx5",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "yAU6gWO",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uptobox.com/dqb0gcj4mlbs?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F339ae10fca0e11e57b89806330710e4b4620414301c08182fd2183a8d1270bec10a40ad9dc2efdfd6669f9c2d36470d25b2d7a8513077d21710896fe39eaa4a227b6513fecfc2f4bf292e64433a707aeb26ae2c68d1c7d8fdc76265f65789dd927bccb71816be3d1540f1c627f18010b5653dad657537a3013829bc5cc5bee77feb43682813ea128e73a1bb4b3be550e%2FBCED3C41EED027789FBF83CF727DAA93FEDADF79BF8009676EB5678F6BA3C8CE.srt",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "vaUWY27",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?glvblfxvv4e3i0pa9ykd",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "WxUV4x8",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?aivfhp04ss2z7nr2jcc9=&c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F339ae10fca0e11e57b89806330710e4b4620414301c08182fd2183a8d1270bec10a40ad9dc2efdfd6669f9c2d36470d25b2d7a8513077d21710896fe39eaa4a227b6513fecfc2f4bf292e64433a707aeb26ae2c68d1c7d8fdc76265f65789dd927bccb71816be3d1540f1c627f18010b5653dad657537a3013829bc5cc5bee77feb43682813ea128e73a1bb4b3be550e%2FBCED3C41EED027789FBF83CF727DAA93FEDADF79BF8009676EB5678F6BA3C8CE.srt",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "EOUpqvz",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/9befeixyd3j2",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "bPUlB70",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/80onyd7or1fv?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F339ae10fca0e11e57b89806330710e4b4620414301c08182fd2183a8d1270bec10a40ad9dc2efdfd6669f9c2d36470d25b2d7a8513077d21710896fe39eaa4a227b6513fecfc2f4bf292e64433a707aeb26ae2c68d1c7d8fdc76265f65789dd927bccb71816be3d1540f1c627f18010b5653dad657537a3013829bc5cc5bee77feb43682813ea128e73a1bb4b3be550e%2FBCED3C41EED027789FBF83CF727DAA93FEDADF79BF8009676EB5678F6BA3C8CE.srt",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "d8UAL1m",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/UlBydDEzVm44aTBmOXY0S0x3cTBHZz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "PaUy4dV",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/bHFXYXYxSWVOZVFPY2dwYm0zYVZ0QT09?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F339ae10fca0e11e57b89806330710e4b4620414301c08182fd2183a8d1270bec10a40ad9dc2efdfd6669f9c2d36470d25b2d7a8513077d21710896fe39eaa4a227b6513fecfc2f4bf292e64433a707aeb26ae2c68d1c7d8fdc76265f65789dd927bccb71816be3d1540f1c627f18010b5653dad657537a3013829bc5cc5bee77feb43682813ea128e73a1bb4b3be550e%2FBCED3C41EED027789FBF83CF727DAA93FEDADF79BF8009676EB5678F6BA3C8CE.srt",
+                    "hostname": "hqq.tv"
+                }
+            ]
+        },
+        {
+            "title": "Título original: Okja",
+            "runtime": " 2h  —",
+            "genere": "\n      Drama, \n        Aventura, \n        Ciencia ficción, \n        Fantasía",
+            "spoken_languaje": " Castellano",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/HDBkaysNYvZX5ELxNSsjWmF/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/NfJhJbSGd82SjEBienk9bMB/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/okja-GwxCW",
+            "overview_movie": "Durante diez años la joven Mija ha cuidado de un gigantesco animal llamado Okja. Pero ahora debe arriesgar todo para evitar que una poderosa compañía multinacional, la Corporación Mirando, se lleve a su mejor amigo.",
+            "ratings_popularity": " 7.5 de 10",
+            "release_date": " 19 de Mayo del 2017 —",
+            "urls_movie": [
+                {
+                    "id": "Z1UkopE",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://feurl.com/f/dworlq50pog",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "Z1UkopE",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://feurl.com/v/dworlq50pog",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "AjUql6q",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-u63ptfrxm0bd.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "BjUN20Y",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-ewwxifmjr2at.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "ggUqN1O",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://1fichier.com/?yyoiozgme9nqq2j3b5xw",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "kvUmx6m",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://uptobox.com/cb4xv49ielpg",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "kvUm4vA",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/THk1L1htV2QyNXBjaVQrOU5FSkRDZz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "YbUZpZn",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/70pf7u4ugp6s",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "nOUVErp",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/if29Nt0n2Tcy9lfhdRRBCMfm2IcjgojSBftwnu6xrV0gSXQk2F7kt-0hu2-e-_VS",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                }
+            ]
+        },
+        {
+            "title": "Título original: Annihilation",
+            "runtime": " 1h 55m —",
+            "genere": "\n      Aventura, \n        Ciencia ficción, \n        Drama, \n        Terror, \n        Suspenso, \n        Fantasía, \n        Misterio",
+            "spoken_languaje": " Latino",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/ZVXMQ83R4tCjEoKzq53f2RF/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/SxC2zXept8DTxhvkdGeqHDB/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/annihilation-RRHYM",
+            "overview_movie": "Cuando su marido desaparece durante una misión secreta para regresar sin recordar nada, la bióloga Lena se une a una expedición a una misteriosa región acordonada por el gobierno de los Estados Unidos. El grupo, compuesto por 5 mujeres científicas, investiga la zona X, un intrigante lugar controlado por una poderosa fuerza alienígena. La zona X es un lugar al que han ido otras expediciones, pero del que ninguna ha vuelto.",
+            "ratings_popularity": " 7.5 de 10",
+            "release_date": " 23 de Febrero del 2018 —",
+            "urls_movie": [
+                {
+                    "id": "bPUp2pr",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://feurl.com/f/1x9qx8w7xv4",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "0nU9e9w",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://uptobox.com/dux0k59mko2y",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "bPUp2pr",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://feurl.com/v/1x9qx8w7xv4",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "5kUn1W5",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-r77us0sos4yf.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "LeUgZYe",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-hxmjywm81601.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "jYUplBq",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://1fichier.com/?takirhxzn4bzzx8n0wwf",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "WxUV72V",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/ks5adzzeakfp",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "zPUd6Z6",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/OWE3RXhQU2Vmd0k0VTVTTURHZGhYdz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "qkU5QY2",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/daSLhyZRDOKflpZomfsavLraIovKA_tU3o8071UPpLUsgpeyNWR0BPVOj9ywstCM",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                }
+            ]
+        },
+        {
+            "title": "Título original: The Hunger Games: Catching Fire",
+            "runtime": " 2h 26m —",
+            "genere": "\n      Acción, \n        Aventura, \n        Ciencia ficción, \n        Suspenso, \n        Misterio",
+            "spoken_languaje": " Latino • Subtitulado • Castellano",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/7kJHbeUyTCPM1qUJsBuAVpm/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/LpzNbUKnRno3b184ofuEo1j/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/the-hunger-games-catching-fire-eeHBY",
+            "overview_movie": "Cuando Katniss Everdeen regresa sana y salva a casa tras ganar la 74ª edición anual de los Juegos del Hambre, junto a su compañero tributo Peeta Mellark. Ganar significa tener que dejar atrás a su familia y amigos, para emprender una \"Gira de la Victoria\" por los diferentes distritos. Por el camino, Katniss se da cuenta de que está comenzando a gestarse una rebelión, pero el Capitolio sigue manteniéndolo todo perfectamente bajo control, mientras el presidente Snow prepara la 75ª edición anual de los Juegos del Hambre (El Vasallaje de los Veinticinco), una competición que podría cambiar Panem para siempre...",
+            "ratings_popularity": " 7.5 de 10",
+            "release_date": " 22 de Noviembre del 2013 —",
+            "urls_movie": [
+                {
+                    "id": "xjUOer2",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://feurl.com/f/rm4meiej018mrx7",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "xjUOer2",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://feurl.com/v/rm4meiej018mrx7",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "VdUB2p9",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-9huhh3aq0jmb.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "76U7O06",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-n84gckk11pqy.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "DdUyydm",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://1fichier.com/?rbn79lhes7dsv494l365",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "VdUDxjr",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://uptobox.com/32wc3sjdlg1u",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "76UQAO8",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/mfucxvswrvp9",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "waUw7Bp",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/YTRRc3FqMG5RK1dlaDd6d2V2cGVkQT09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "PaUy0mW",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/gZhzY-uBQe0Ts_s7ALMyP-jrp8KWGzSCbPtNx9-Lv2hT3qD_TWJXFV_mJz6J83Uc",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                },
+                {
+                    "id": "qkU5P2j",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-cbel1jf19aee.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F107d8de273b6b429785e752ccb6a28052371561146ea42d15f072c7a36b0b7726a8dd030dedc5c607ff295d41ebe41423e40cccecd6a74784b6911e7a8ff2768ac4b2402328ffd3f6fa3ee028d79f76d49ec7efef9fb679772cb67f91b0074619442b8a186b31dd2bf4d0da466797863cea9f34f2d78bd56397d9710def0d0ed37917fa2b45a11f0af0658f3393a64a7%2F459C9E21CB058AD8DDAF29C1A1C5FE0F97D03D755C9A63BD9E074C53A03F9558.srt",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "jYUpezo",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-uw1rt878s6lv.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "waUw18B",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/zg58i8aurdzx?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F107d8de273b6b429785e752ccb6a28052371561146ea42d15f072c7a36b0b7726a8dd030dedc5c607ff295d41ebe41423e40cccecd6a74784b6911e7a8ff2768ac4b2402328ffd3f6fa3ee028d79f76d49ec7efef9fb679772cb67f91b0074619442b8a186b31dd2bf4d0da466797863cea9f34f2d78bd56397d9710def0d0ed37917fa2b45a11f0af0658f3393a64a7%2F459C9E21CB058AD8DDAF29C1A1C5FE0F97D03D755C9A63BD9E074C53A03F9558.srt",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "AjUbmEB",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/dmj3r076tdh5",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "8dUlAD8",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/po_u0EsFLH2NUSIx-NVHiuS7-Rp4nsmaAYTDoDDe9j4DJT8DMOzGA_KZdlG60ErI",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "rgU64zN",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/WX5mbU910NUqksjqDeCn2NkZGMHvxjklMhNgSuuGIZrO10twYxLoIjsIEbEfCIRM",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "okUbLB3",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-6xrplktvtf51.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "76UQwLQ",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?5bpbyv2mz29e4lmiege5",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "DdUygzD",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?1g8vprelvnqo1p9y8y1s=&c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F107d8de273b6b429785e752ccb6a28052371561146ea42d15f072c7a36b0b7726a8dd030dedc5c607ff295d41ebe41423e40cccecd6a74784b6911e7a8ff2768ac4b2402328ffd3f6fa3ee028d79f76d49ec7efef9fb679772cb67f91b0074619442b8a186b31dd2bf4d0da466797863cea9f34f2d78bd56397d9710def0d0ed37917fa2b45a11f0af0658f3393a64a7%2F459C9E21CB058AD8DDAF29C1A1C5FE0F97D03D755C9A63BD9E074C53A03F9558.srt",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "30U9vlB",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uptobox.com/8umnh4s586gw",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "LeUQN2E",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uptobox.com/e2xbaiae6pmd?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F107d8de273b6b429785e752ccb6a28052371561146ea42d15f072c7a36b0b7726a8dd030dedc5c607ff295d41ebe41423e40cccecd6a74784b6911e7a8ff2768ac4b2402328ffd3f6fa3ee028d79f76d49ec7efef9fb679772cb67f91b0074619442b8a186b31dd2bf4d0da466797863cea9f34f2d78bd56397d9710def0d0ed37917fa2b45a11f0af0658f3393a64a7%2F459C9E21CB058AD8DDAF29C1A1C5FE0F97D03D755C9A63BD9E074C53A03F9558.srt",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "WxUV9LO",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uptobox.com/e2xbaiae6pmd?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F107d8de273b6b429785e752ccb6a28052371561146ea42d15f072c7a36b0b7726a8dd030dedc5c607ff295d41ebe41423e40cccecd6a74784b6911e7a8ff2768ac4b2402328ffd3f6fa3ee028d79f76d49ec7efef9fb679772cb67f91b0074619442b8a186b31dd2bf4d0da466797863cea9f34f2d78bd56397d9710def0d0ed37917fa2b45a11f0af0658f3393a64a7%2F459C9E21CB058AD8DDAF29C1A1C5FE0F97D03D755C9A63BD9E074C53A03F9558.srt",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "EOUpNWq",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/QVQ3aklyUVgrT0tURk93QXozZ0dXUT09?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F107d8de273b6b429785e752ccb6a28052371561146ea42d15f072c7a36b0b7726a8dd030dedc5c607ff295d41ebe41423e40cccecd6a74784b6911e7a8ff2768ac4b2402328ffd3f6fa3ee028d79f76d49ec7efef9fb679772cb67f91b0074619442b8a186b31dd2bf4d0da466797863cea9f34f2d78bd56397d9710def0d0ed37917fa2b45a11f0af0658f3393a64a7%2F459C9E21CB058AD8DDAF29C1A1C5FE0F97D03D755C9A63BD9E074C53A03F9558.srt",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "1dU8OEq",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-ev03w0po18to.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F107d8de273b6b429785e752ccb6a28052371561146ea42d15f072c7a36b0b7726a8dd030dedc5c607ff295d41ebe41423e40cccecd6a74784b6911e7a8ff2768ac4b2402328ffd3f6fa3ee028d79f76d49ec7efef9fb679772cb67f91b0074619442b8a186b31dd2bf4d0da466797863cea9f34f2d78bd56397d9710def0d0ed37917fa2b45a11f0af0658f3393a64a7%2F459C9E21CB058AD8DDAF29C1A1C5FE0F97D03D755C9A63BD9E074C53A03F9558.srt",
+                    "hostname": "upstream.to"
+                }
+            ]
+        },
+        {
+            "title": "Título original: Captain America: Civil War",
+            "runtime": " 2h 27m —",
+            "genere": "\n      Acción, \n        Aventura, \n        Ciencia ficción",
+            "spoken_languaje": " Latino • Castellano",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/N7hCsyrnmDRf2JDw5yxHmzZ/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/NfJhYwh2YbBhhjNxf9XjYV7/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/captain-america-civil-war-XNAIM",
+            "overview_movie": "Continúa la historia de “Avengers: Age of Ultron”. Tras otro incidente internacional relacionado con los Vengadores que ocasiona daños colaterales, la presión política fuerza a crear un sistema de registro y un cuerpo gubernamental para determinar cuándo se requiere los servicios del equipo.",
+            "ratings_popularity": " 7.5 de 10",
+            "release_date": " 06 de Mayo del 2016 —",
+            "urls_movie": [
+                {
+                    "id": "PaU8Wjd",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://feurl.com/f/8xvpx84dq97",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "PaU8Opk",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://feurl.com/f/2ere5t2qdqj-66z",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "RlUzOA1",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://uptobox.com/fzrrwckry6qw",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "0nU9w5k",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://uptobox.com/ib98tw4l772v",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "PaU8Wjd",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://feurl.com/v/8xvpx84dq97",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "qkUzd7P",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-39b2x6b02ovv.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "27UjdeB",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-whvmb5rp1e29.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "PaU8Opk",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://feurl.com/v/2ere5t2qdqj-66z",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "VdUBlzV",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-kzf4349ern5p.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "MWUoQxr",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-80zi26u5ejrn.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "eOU2QNQ",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://1fichier.com/?8romeb0zk6l2k7uq4i72",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "YbUdYb5",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://1fichier.com/?pu74cjvvnkr56m2qkqdy",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "RlU248b",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/yn3qvd6clfuk",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "zPUdwow",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/3h3vg74ssmve",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "PaUyW1B",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/MlVxNHBKcXVWWStlTUJJeGZRUWpoUT09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "4bUyVdW",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/S3hVZVZqeERuQVl1QjhzVFRVejRLUT09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "WxUV3dW",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/OX7mjx_93OTrk_B6CWh3eqYuoPJLfTb5FILaL4W-U1WOLYcLleSIPjtxFXNvCLY-",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "Z1UA4mg",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/dhrazZnPsASFCvuAMTzIQWgtpYmK4w33agxWXJt6i1kmpbWbabQzsga3CF8mRouJ",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                }
+            ]
+        },
+        {
+            "title": "Título original: Avengers: Age of Ultron",
+            "runtime": " 2h 20m —",
+            "genere": "\n      Acción, \n        Aventura, \n        Ciencia ficción",
+            "spoken_languaje": " Latino • Castellano • Subtitulado",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/SUbAW4BaFWTk3MgTiMbvebT/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/GfaGQko5s9Wbmpiw7vZYRZK/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/avengers-age-of-ultron-GZyCb",
+            "overview_movie": "Cuando Tony Stark intenta reactivar un programa caído en desuso cuyo objetivo es mantener la paz, las cosas empiezan a torcerse y los héroes más poderosos de la Tierra, incluyendo a Iron Man, Capitán América, Thor, El Increíble Hulk, Viuda Negra y Ojo de Halcón, tendrán que afrontar la prueba definitiva cuando el destino del planeta se ponga en juego. Cuando el villano Ultron emerge, le corresponderá a Los Vengadores detener sus terribles planes, que junto a incómodas alianzas llevarán a una inesperada acción que allanará el camino para una épica y única aventura.",
+            "ratings_popularity": " 7.5 de 10",
+            "release_date": " 01 de Mayo del 2015 —",
+            "urls_movie": [
+                {
+                    "id": "NyUqynN",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://feurl.com/f/4dvjx65ry91",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "QEU2Px9",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://feurl.com/f/05olxd5mno6",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "rgUl1Bm",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://uptobox.com/08snafv1kpz1",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "p1UvEnq",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://uptobox.com/3bjqbkb5nupe",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "NyUqynN",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://feurl.com/v/4dvjx65ry91",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "QEU2Px9",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://feurl.com/v/05olxd5mno6",
+                    "hostname": "fembed.com"
+                },
+                {
+                    "id": "27Ujdzn",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-yqsoq1nf804a.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "NyUqYaq",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-poii7jwz4qgx.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "okUE1EM",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-54mzlagqcbsb.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "4bUBgyB",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-1e9m0cw7u5e7.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "OyUkovl",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://1fichier.com/?bij1c8uv0e1ooiwi9fa6",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "MWUgOBE",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://1fichier.com/?ophrmgjin2fjht4o1ayb",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "VdUDyz1",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/dltsirkh5w9l",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "76UQVjg",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/9clcql6kt7zz",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "30U9yew",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/UlpjdC9MMmswVlE5eHVGWWFrazU0dz09#iss=MTgxLjExNS4yNDguMTcw",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "zPUdwjo",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/ckpDMTRTbnY4dVp2QXZRdFM5a3R1dz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "zPUdLpN",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/EHo6tds6mwPvVEcpLBVUK81JU7l-bHEb0M_lUw0uQAykr52qIxgx1CtTzewnKgot",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                },
+                {
+                    "id": "5kU5Wy4",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/U_PT_551qtrKaqKRy5pWfJDMUxKTTdDOgy0l4AksgtP8EEFwhhW7kzpHs0ck_xb4",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "NyUEapk",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-2iomxgzsbqjh.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F9b086bdf311cba009e652c7aacd594c077bdbc68091c72a0c95b4434db6cb479c13f513cde036e6375a5a673569868aa9e85d427af9a591a3fd5d81164861a739d4588667af1f8ed09ed2911dbfc12d1de0d509709967894b713d5a2bd281e9f63e8cd029fa07ebada45dc9214180489304e2d0e802577e59f07e0e7fa59ed3d254e3d92cb6293a62d954bd694dc1779%2F3B35FB1C68009FA16BE49E42099B611DA5A9A65E12D06052654A01F37183DA48.srt",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "QEU5wLA",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-c7iyegt7xavy.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F9b086bdf311cba009e652c7aacd594c077bdbc68091c72a0c95b4434db6cb479c13f513cde036e6375a5a673569868aa9e85d427af9a591a3fd5d81164861a739d4588667af1f8ed09ed2911dbfc12d1de0d509709967894b713d5a2bd281e9f63e8cd029fa07ebada45dc9214180489304e2d0e802577e59f07e0e7fa59ed3d254e3d92cb6293a62d954bd694dc1779%2F3B35FB1C68009FA16BE49E42099B611DA5A9A65E12D06052654A01F37183DA48.srt",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "76UQwgb",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/h9ccbhnmq4vz?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F9b086bdf311cba009e652c7aacd594c077bdbc68091c72a0c95b4434db6cb479c13f513cde036e6375a5a673569868aa9e85d427af9a591a3fd5d81164861a739d4588667af1f8ed09ed2911dbfc12d1de0d509709967894b713d5a2bd281e9f63e8cd029fa07ebada45dc9214180489304e2d0e802577e59f07e0e7fa59ed3d254e3d92cb6293a62d954bd694dc1779%2F3B35FB1C68009FA16BE49E42099B611DA5A9A65E12D06052654A01F37183DA48.srt",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "DdUygBb",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/UTndl7Pxe5jRnL2GtZb5UW1VOcu0kgch1zW7fa_phkGJhfXcjVifGyqxfkNETR8W",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "mzUP8O6",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?l8jcnojzqlsmuurww4r8=&c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F9b086bdf311cba009e652c7aacd594c077bdbc68091c72a0c95b4434db6cb479c13f513cde036e6375a5a673569868aa9e85d427af9a591a3fd5d81164861a739d4588667af1f8ed09ed2911dbfc12d1de0d509709967894b713d5a2bd281e9f63e8cd029fa07ebada45dc9214180489304e2d0e802577e59f07e0e7fa59ed3d254e3d92cb6293a62d954bd694dc1779%2F3B35FB1C68009FA16BE49E42099B611DA5A9A65E12D06052654A01F37183DA48.srt",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "zPUdk02",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uptobox.com/ja05p670d8dl?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F9b086bdf311cba009e652c7aacd594c077bdbc68091c72a0c95b4434db6cb479c13f513cde036e6375a5a673569868aa9e85d427af9a591a3fd5d81164861a739d4588667af1f8ed09ed2911dbfc12d1de0d509709967894b713d5a2bd281e9f63e8cd029fa07ebada45dc9214180489304e2d0e802577e59f07e0e7fa59ed3d254e3d92cb6293a62d954bd694dc1779%2F3B35FB1C68009FA16BE49E42099B611DA5A9A65E12D06052654A01F37183DA48.srt",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "alUezQR",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/TzYwMGNRdExEeDZlMjJUeHliNkVNdz09?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2F9b086bdf311cba009e652c7aacd594c077bdbc68091c72a0c95b4434db6cb479c13f513cde036e6375a5a673569868aa9e85d427af9a591a3fd5d81164861a739d4588667af1f8ed09ed2911dbfc12d1de0d509709967894b713d5a2bd281e9f63e8cd029fa07ebada45dc9214180489304e2d0e802577e59f07e0e7fa59ed3d254e3d92cb6293a62d954bd694dc1779%2F3B35FB1C68009FA16BE49E42099B611DA5A9A65E12D06052654A01F37183DA48.srt",
+                    "hostname": "hqq.tv"
+                }
+            ]
+        },
+        {
+            "title": "Título original: The Invisible Man",
+            "runtime": " 2h 04m —",
+            "genere": "\n      Ciencia ficción, \n        Terror, \n        Suspenso, \n        Misterio",
+            "spoken_languaje": " Latino • Castellano • Subtitulado",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/GgCHpmc2XpZMYudaFVxyZgm/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/VktAgvL15EGEnpwwzYAPpuo/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/the-invisible-man-ggUeAq",
+            "overview_movie": "Cecilia (Elisabeth Moss) rehace su vida tras recibir la noticia de que su exnovio, un maltratador empedernido, ha fallecido. Sin embargo, su cordura comienza a tambalearse cuando empieza tener la certeza de que en realidad sigue vivo.",
+            "ratings_popularity": " 7.5 de 10",
+            "release_date": " 26 de Febrero del 2020 —",
+            "urls_movie": [
+                {
+                    "id": "QEU2aN0",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-1gp114w646kq.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "vaUjqkA",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-mu7ki315n6lj.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "xjUObNw",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "download",
+                    "url": "https://1fichier.com/?6lf5uphd2smfhymcb8g9",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "OyUEqEz",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "download",
+                    "url": "https://1fichier.com/?2j5rm6li592qcf6naufh",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "nOUVBaa",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-twh0y8gqb91p.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd11423ba9d29496ec6718e07da0093e1c864bd23edc88d28914be5bdd9ce41990dbfeaf7d07bd3d607b134a3c2a302ff807d6d5fefe566e224e64f5240522669a6f9c053572e18c26c296802baa3aeaa2d854cd39c843141e4b73585a5e8b3bceab3cbda86e15831d2b68534a40094bfa21382bad81f4b6c2e12436c537fa00f612cccded6777b054fcbd7c46fa06282%2FD4C71C3C8FB77C5479C223BC794156B2ECB1DA53DC46A262B454B5CAB78889C7.srt",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "Z1UAWA0",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "download",
+                    "url": "https://1fichier.com/?vn6kbrltnmhxt6ml3fga",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "NyUEqBL",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-9oxctb4b5yjr.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd11423ba9d29496ec6718e07da0093e1c864bd23edc88d28914be5bdd9ce41990dbfeaf7d07bd3d607b134a3c2a302ff807d6d5fefe566e224e64f5240522669a6f9c053572e18c26c296802baa3aeaa2d854cd39c843141e4b73585a5e8b3bceab3cbda86e15831d2b68534a40094bfa21382bad81f4b6c2e12436c537fa00f612cccded6777b054fcbd7c46fa06282%2FD4C71C3C8FB77C5479C223BC794156B2ECB1DA53DC46A262B454B5CAB78889C7.srt",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "okUbPMn",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/e6ywj0qli5zk?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd11423ba9d29496ec6718e07da0093e1c864bd23edc88d28914be5bdd9ce41990dbfeaf7d07bd3d607b134a3c2a302ff807d6d5fefe566e224e64f5240522669a6f9c053572e18c26c296802baa3aeaa2d854cd39c843141e4b73585a5e8b3bceab3cbda86e15831d2b68534a40094bfa21382bad81f4b6c2e12436c537fa00f612cccded6777b054fcbd7c46fa06282%2FD4C71C3C8FB77C5479C223BC794156B2ECB1DA53DC46A262B454B5CAB78889C7.srt",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "DdUyBrB",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/dEVmdnZnekxJVUl6ZXFCZkNrZXBJQT09?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd11423ba9d29496ec6718e07da0093e1c864bd23edc88d28914be5bdd9ce41990dbfeaf7d07bd3d607b134a3c2a302ff807d6d5fefe566e224e64f5240522669a6f9c053572e18c26c296802baa3aeaa2d854cd39c843141e4b73585a5e8b3bceab3cbda86e15831d2b68534a40094bfa21382bad81f4b6c2e12436c537fa00f612cccded6777b054fcbd7c46fa06282%2FD4C71C3C8FB77C5479C223BC794156B2ECB1DA53DC46A262B454B5CAB78889C7.srt",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "qkU5r7p",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-27fvjfdzokjf.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "zPUd7vA",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/L29INTJXYzZMT1prRm9RNHhRZjliZz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "nOUVbyk",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/WTdXK3VOYXVEV1NGYXE2WVJhdmZlZz09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "PaUyn0Y",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uptobox.com/y0nuisf8ei76?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd11423ba9d29496ec6718e07da0093e1c864bd23edc88d28914be5bdd9ce41990dbfeaf7d07bd3d607b134a3c2a302ff807d6d5fefe566e224e64f5240522669a6f9c053572e18c26c296802baa3aeaa2d854cd39c843141e4b73585a5e8b3bceab3cbda86e15831d2b68534a40094bfa21382bad81f4b6c2e12436c537fa00f612cccded6777b054fcbd7c46fa06282%2FD4C71C3C8FB77C5479C223BC794156B2ECB1DA53DC46A262B454B5CAB78889C7.srt",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "6aU0O17",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uptobox.com/yubbx95w9yqy",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "9NUqDow",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://uptobox.com/l7a7o0nuxgu8",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "bPUlZ1M",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-3bmi81uokh9w.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "9NUqQlD",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/02aprikisp8b",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "rgU6aM8",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/8luot24tefj4",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "VdUDw3O",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/5S7i71jpn61IuQau97x3pQjdvQJPAzOvhzFs_YG4CmbHRZrnIm7pYzFLsOzox6o1",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "6aU0aVk",
+                    "quality": "high",
+                    "audio": "es-es",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/DK5PLpWMrXcLcjcea7qvAjQ9xMTIfdjjd-uuOG6LqV79HPTJy8bQfbXUHx_uBbdf",
+                    "hostname": "kiripiliarload.com"
+                },
+                {
+                    "id": "9NUqwQk",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/9ZfBnfDYjYWi0Zcge4-u_KapaB5vcx1axNWFhKaJ5DUc_AGlrOJZbHdUlpYnkqWO",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                }
+            ]
+        },
+        {
+            "title": "Título original: Batman: Assault on Arkham",
+            "runtime": " 1h 15m —",
+            "genere": "\n      Acción, \n        Aventura, \n        Ciencia ficción, \n        Familiar, \n        Suspenso, \n        Crimen, \n        Animación",
+            "spoken_languaje": " Latino • Subtitulado",
+            "poster_url": "https://v1.pelisplusgt.com/_images/posters/7c1WiEQFPH6YiWCSBokpRmt/280x420.jpg",
+            "poster2_url": "https://v1.pelisplusgt.com/_images/backdrops/K3ru4n3CCwEn6QHxTdaUJKL/960x540.jpg",
+            "urlDetailMovieOriginal": "https://v1.pelisplusgt.com/pelicula/batman-assault-on-arkham-jYUNL7",
+            "overview_movie": "Bienvenido a Gotham City, corazón de las tinieblas. En su centro se erige Arkham Asylum, un depósito supurante para villanos, peligrosos y delirantes, cuya población no cesa de crecer, cortesía de Dark Knight. Cuando Batman logra resolver la última jugada del Riddler y hay que recuperar pruebas cruciales de Arkham, la solución llega de una fuente inesperada: un escuadrón encubierto del gobierno, formado desde el inframundo de Gotham City. El asesino Deadshot encabeza el Suicide Squad: Harley Quinn, Killer Frost, Captain Boomerang, King Shark y Black Spider, granujas que conocen el Arkham Asylum y sus residentes demasiado bien. Prepárate para un asalto en grande en el que Batman se enfrenta a una legión de criminales sin temor ni nada que perder. Algunos vivirán, otros morirán y algunos solo tienen sed de venganza. Una aventura sin adulterar que atraviesa la mente criminal en la más reciente película animada de DC Universe.",
+            "ratings_popularity": " 7.5 de 10",
+            "release_date": " 29 de Julio del 2014 —",
+            "urls_movie": [
+                {
+                    "id": "QEU5YE4",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-u7zkou4tgoh9.html",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "76UQ954",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-zflbbcv7n4of.html",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "DdUy987",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://uptobox.com/2raecw7mj60g",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "eOUVg1B",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?dnbip8uv3f50rtp3dni7",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "30U9Q3o",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/2vvvrzyrlheo",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "LeUQ16l",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/SlF1RURWWHErcG4veTE3WW1xNmJWUT09",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "RlU2WqM",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uqload.com/embed-48rv6hc5oa6p.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd8580901bf3b244b2631b61972d8ba54db78161c9eda36cb8f7caaf2ac367ad7499768b02b252d68cf6a772ced88005166c5861d1686089184f5a38d05b11379858e8a8e8951d7bc7103f024ae58c0e0632afd6205dc5eb453fb7d13c5df2a435f58f8e6ea4d65c44feaca32e6f521108fe1b2ce4cb4e44e0f095c85f1587166b6bb6c4e8d90e7ceff5e046f3e62b790%2FA741D99E2DB85B9BFA06EE05504971552CA644FDB3FF39B10A796338BF3FEF9F.srt",
+                    "hostname": "uqload.com"
+                },
+                {
+                    "id": "0nUAeve",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://upstream.to/embed-ivezqlo8i9uo.html?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd8580901bf3b244b2631b61972d8ba54db78161c9eda36cb8f7caaf2ac367ad7499768b02b252d68cf6a772ced88005166c5861d1686089184f5a38d05b11379858e8a8e8951d7bc7103f024ae58c0e0632afd6205dc5eb453fb7d13c5df2a435f58f8e6ea4d65c44feaca32e6f521108fe1b2ce4cb4e44e0f095c85f1587166b6bb6c4e8d90e7ceff5e046f3e62b790%2FA741D99E2DB85B9BFA06EE05504971552CA644FDB3FF39B10A796338BF3FEF9F.srt",
+                    "hostname": "upstream.to"
+                },
+                {
+                    "id": "yAU6oEg",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://uptobox.com/6yg3ovjw4fs2?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd8580901bf3b244b2631b61972d8ba54db78161c9eda36cb8f7caaf2ac367ad7499768b02b252d68cf6a772ced88005166c5861d1686089184f5a38d05b11379858e8a8e8951d7bc7103f024ae58c0e0632afd6205dc5eb453fb7d13c5df2a435f58f8e6ea4d65c44feaca32e6f521108fe1b2ce4cb4e44e0f095c85f1587166b6bb6c4e8d90e7ceff5e046f3e62b790%2FA741D99E2DB85B9BFA06EE05504971552CA644FDB3FF39B10A796338BF3FEF9F.srt",
+                    "hostname": "uptobox.com"
+                },
+                {
+                    "id": "vaUWk8Z",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://1fichier.com/?c4thylmnq7xy472nchzs=&c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd8580901bf3b244b2631b61972d8ba54db78161c9eda36cb8f7caaf2ac367ad7499768b02b252d68cf6a772ced88005166c5861d1686089184f5a38d05b11379858e8a8e8951d7bc7103f024ae58c0e0632afd6205dc5eb453fb7d13c5df2a435f58f8e6ea4d65c44feaca32e6f521108fe1b2ce4cb4e44e0f095c85f1587166b6bb6c4e8d90e7ceff5e046f3e62b790%2FA741D99E2DB85B9BFA06EE05504971552CA644FDB3FF39B10A796338BF3FEF9F.srt",
+                    "hostname": "1fichier.com"
+                },
+                {
+                    "id": "WxUVOb6",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://embed.mystream.to/d3nsoud12dkv?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd8580901bf3b244b2631b61972d8ba54db78161c9eda36cb8f7caaf2ac367ad7499768b02b252d68cf6a772ced88005166c5861d1686089184f5a38d05b11379858e8a8e8951d7bc7103f024ae58c0e0632afd6205dc5eb453fb7d13c5df2a435f58f8e6ea4d65c44feaca32e6f521108fe1b2ce4cb4e44e0f095c85f1587166b6bb6c4e8d90e7ceff5e046f3e62b790%2FA741D99E2DB85B9BFA06EE05504971552CA644FDB3FF39B10A796338BF3FEF9F.srt",
+                    "hostname": "mystream.to"
+                },
+                {
+                    "id": "EOUpoyx",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://hqq.tv/e/clJhWmhkQjBUQnpKcEdENkxVaWRtdz09?c1_label=Sub.+Espa%C3%B1ol&c1_file=https%3A%2F%2Fv1.pelisplusgt.com%2Fsrv-pbc%2Fcrypto%2Fh%2Fd8580901bf3b244b2631b61972d8ba54db78161c9eda36cb8f7caaf2ac367ad7499768b02b252d68cf6a772ced88005166c5861d1686089184f5a38d05b11379858e8a8e8951d7bc7103f024ae58c0e0632afd6205dc5eb453fb7d13c5df2a435f58f8e6ea4d65c44feaca32e6f521108fe1b2ce4cb4e44e0f095c85f1587166b6bb6c4e8d90e7ceff5e046f3e62b790%2FA741D99E2DB85B9BFA06EE05504971552CA644FDB3FF39B10A796338BF3FEF9F.srt",
+                    "hostname": "hqq.tv"
+                },
+                {
+                    "id": "MWUgD2g",
+                    "quality": "high",
+                    "audio": "es-mx",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/WGPEYkiiOHmAz5kMzde_m14GebdX5eNAQrHPXmP7NceUkqB7zYi1P4fo2TxaNFEc",
+                    "hostname": "kiripiliarload.com",
+                    "selected": true
+                },
+                {
+                    "id": "ggUqdnN",
+                    "quality": "high",
+                    "audio": "en",
+                    "type": "stream",
+                    "url": "https://kiripiliarload.com/embed/0at_73XDrcJd5p-nZ2ycWVHlApvN1Y9BCQ2ZFc12wQ6WpnoeqobPadj0ulRFlRIp",
+                    "hostname": "kiripiliarload.com"
+                }
+            ]
+        }
+    ]
+}

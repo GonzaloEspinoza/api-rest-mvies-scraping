@@ -1,35 +1,51 @@
 'use strict'
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const { url } = require('inspector');
 
 
 async function ScrapingPelisPlus(){
-    const Url=`https://v1.pelisplusgt.com/`;
+    const Url=`https://v1.pelisplusgt.com/genero/documentales-KnOUr`;
 
    const Links = await (async()=>{
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
         await page.goto(Url);
+    
         await page.screenshot({path: 'scraping/pelisplus-com.png'})
         const result = await page.evaluate(()=>{
+            // document.querySelectorAll('._28O2k._1fxEE')[1].click();
 
             const host = 'https://'+document.domain;
             // const url_detail = [...document.querySelectorAll('._1k4zW ._1qhFD li a')].map(d=>d.href);
             var url_detail = [...document.querySelectorAll('._1YnQY li a')].map(d=>d.href);
-            document.querySelectorAll('._28O2k._1fxEE')[1].click();
 
-            // await page.goto()
-
-            return url_detail;
+            // return url_detail;
         })
 
+        let newurls=[];
+        for (let i = 0; i < 5; i++) {
+            await page.screenshot({path: 'scraping/paages.png'})  //**es lo que hace que espere a que se carge la nueva pagina */
+           let nUrl = await  page.evaluate(()=>{
+               var aux =[...document.querySelectorAll('._1YnQY li a')].map(d=>d.href);
+                document.querySelectorAll('._28O2k._1fxEE')[1].click();
+              return aux;
+            });
+            newurls= [...newurls,...nUrl];
+            console.log(page.url());
+            console.log(nUrl)
+
+        }
+        
+        
         // console.log(result);
         await browser.close();
-        return result;
+        return newurls;
+        // return result;
     })();
 
     // console.log(Links)
-   await fs.appendFile('estrenos-home.json', JSON.stringify(Links),'utf8', (err) => {
+   await fs.appendFile('urlsLinks-pages-0-3-documentales.json', JSON.stringify(Links),'utf8', (err) => {
         if (err) throw err;
         console.log('The "data to append" was appended to file!');
       });
@@ -152,6 +168,8 @@ const linksDetailMovie=['https://v1.pelisplusgt.com/pelicula/i-am-vengeance-reta
                     var puntuacion = (data[4].split(':'))[1];
                     var audio = (data[6].split(':'))[1];
 
+                    var urld =location.href;
+
                     var description = document.querySelector('._3-H4c').textContent;
                     var urlMovies = __NUXT__.data[0].movie.mirrors;
 
@@ -169,6 +187,7 @@ const linksDetailMovie=['https://v1.pelisplusgt.com/pelicula/i-am-vengeance-reta
                         spoken_languaje:audio,
                         poster_url:poster_url,
                         poster2_url:poster2_url,
+                        urlDetailMovieOriginal:urld,
                         overview_movie:description,
                         ratings_popularity:puntuacion,
                         release_date:estreno,
@@ -181,25 +200,26 @@ const linksDetailMovie=['https://v1.pelisplusgt.com/pelicula/i-am-vengeance-reta
 
                 // console.log(result);
 
-                for (let j = 0; j < result.urls_movie.length; j++) {
-                    console.log(result.urls_movie[j],'scraping -->ur-valido');
-                    console.log(result.title);
-                    var urlmoviesVlidos
-                    try {
+                // for (let j = 0; j < result.urls_movie.length; j++) {
+                //     console.log(result.urls_movie[j],'scraping -->ur-valido');
+                //     console.log(result.title);
+                //     var urlmoviesVlidos
+                //     try {
                         
-                        await page.goto(result.urls_movie[j].url)
-                        urlmoviesVlidos = page.url();
-                        console.log('url_movies videos-->',urlmoviesVlidos)
+                //         await page.goto(result.urls_movie[j].url)
+                //         urlmoviesVlidos = page.url();
+                //         console.log('url_movies videos-->',urlmoviesVlidos)
                         
-                    } catch (error) {
-                        console.log('error ')
-                        urlmoviesVlidos = page.url();
-                        console.log('url_movies videos-->',urlmoviesVlidos)
+                //     } catch (error) {
+                //         console.log('error ')
+                //         urlmoviesVlidos = page.url();
+                //         console.log('url_movies videos-->',urlmoviesVlidos)
 
-                    }
+                //     }
 
-                    result.urls_movie[j].url=urlmoviesVlidos;
-                }
+                //     result.urls_movie[j].url=urlmoviesVlidos;
+                // }
+                
                 console.log(result)
                 await browser.close()
                 return result;

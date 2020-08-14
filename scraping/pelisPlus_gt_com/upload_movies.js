@@ -1,7 +1,7 @@
 'use strict'
 
 const Movie = require('../../database/collections/movies');
-const storageMovie = require('../../movies_accion.json');
+const storageMovie = require('../../urlsLinks-pages-0-3-documentales.json');
 const fs = require('fs');
 
 const CorregirTitle= async(titleString)=>{
@@ -119,6 +119,7 @@ async function UploadMovie(){
             poster3_url:poster3_url,
             urls_movie: storageMovie.movies[i].urls_movie,
             overview_movie: storageMovie.movies[i].overview_movie,
+            urlDetailMovieOriginal:storageMovie.movies[i].urlDetailMovieOriginal,
             Director:'',
             writer:'',
             actors:'',

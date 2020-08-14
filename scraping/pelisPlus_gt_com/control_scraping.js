@@ -1,6 +1,6 @@
 'use strict'
 const fs = require('fs');
-const StorageUrls = require('../../estrenos-home-urls.json');
+const StorageUrls = require('../../urlsLinks-pages-0-3-documentales-urls.json');
 
 const Scraping= require('./scraping_pelisplus');
 
@@ -14,7 +14,7 @@ async function CrontolScraping(){
         movies[i]=await Scraping.ScrapingMovieDetail(StorageUrls[i]);
     }
     
-    await fs.appendFile('./estrenos-home.json', JSON.stringify({movies}),'utf8', (err) => {
+    await fs.appendFile('./urlsLinks-pages-0-3-documentales.json', JSON.stringify({movies}),'utf8', (err) => {
         if (err) throw err;
         console.log('The "data to append" was appended to file!');
       });
