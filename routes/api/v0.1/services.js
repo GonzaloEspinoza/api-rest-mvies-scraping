@@ -36,6 +36,14 @@ route.get('/show/movies/yearspecific',Movies.YearReleaseSpecific)
 route.get('/show/movie/idmovie=:idmovie', Movies.ShowUrlMovies)
 
 
+
+
+// info config data initial server movies
+const ConfigData = require('./configServerData');
+route.get('/config/data/server/movies',ConfigData.DataServerInitial)
+
+
+
 // api info
 route.get('/api/info',ApiInfo);
 

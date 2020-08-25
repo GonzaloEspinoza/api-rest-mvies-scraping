@@ -4,7 +4,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const Movie= new Schema({
+    id2:String,
     title:String,
+    slug:String,
     release_date: String,
     yearRelease:Number,
     runtime:String,

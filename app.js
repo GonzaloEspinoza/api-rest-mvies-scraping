@@ -28,7 +28,17 @@ const Control_scrapin= require('./scraping/pelisPlus_gt_com/control_scraping');
 // Control_scrapin()
 
 const uploadMmovie= require('./scraping/pelisPlus_gt_com/upload_movies');
-uploadMmovie.UploadMovie();
+// uploadMmovie.UploadMovie();
+
+
+// ............grphql
+const uploadData = require('./graplql/graphql_3_upload_movies');
+// uploadData();
+
+
+// uploda dataserver initial data
+const uploadDataInitialConfigServer = require('./database/collections/data_server_movies/uploadInitialData');
+// uploadDataInitialConfigServer();
 
 app.listen(PORT,()=>{
     console.log(`Server on port: ${PORT}`)

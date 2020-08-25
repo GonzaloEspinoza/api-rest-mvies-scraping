@@ -1,8 +1,6 @@
 
-
-const axios = require('axios');
-
 const fetch = require('node-fetch')
+
 const query = `query ($genreId: ID!, $first: Int!, $offset: Int!) {
     genre: Genre(id: $genreId) {
       id
@@ -25,8 +23,8 @@ const query = `query ($genreId: ID!, $first: Int!, $offset: Int!) {
   }
 `
 const variables = {genreId: "XmzUq", first: 50, offset: 0};
-
-var url = 'https://v1.pelisplusgt.com/graph',
+// https://v2.pelisplusgt.com/graph
+var url = 'https://v2.pelisplusgt.com/graph',
     options = {
         method: 'POST',
         headers: {
@@ -42,16 +40,10 @@ async function main(){
     try {
         let res = await fetch(url, options);
         res = await res.json();
-        console.log(res.data);
+        console.log(res.data.movies.length);
     } catch (e) {
         console.log(e);
     }
 }
 main()
 // --
-
-
-        
-// }
-
-// fetchPost();

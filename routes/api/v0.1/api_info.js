@@ -7,7 +7,7 @@ const ApiInfo = (req, res)=>{
             {
             genere:{
                 message:'Muestra peliculas por genero, 25 por cada pagina',
-                endpoint:'http://localhost:8000/show/movies/genere=ciencia%20ficcion&page=1'
+                endpoint:'http://localhost:8000/show/movies/genere=ciencia-ficcion&page=1'
                 }
             },{
                 rating_polularity:{
