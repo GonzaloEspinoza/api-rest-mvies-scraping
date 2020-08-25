@@ -5,11 +5,22 @@ const ApiInfo = (req, res)=>{
     res.status(200).send({
         api_info:[
             {
+            ConfigGlobalServer:{
+               endPpoint: "http://localhost:8000/config/data/server/movies" 
+            },
             genere:{
                 message:'Muestra peliculas por genero, 25 por cada pagina',
                 endpoint:'http://localhost:8000/show/movies/genere=ciencia-ficcion&page=1'
                 }
-            },{
+            },
+            {
+            todasLasPeliculasDeUnGenero:{
+                message:'Muestra peliculas por genero, 500 por cada pagina',
+                endpoint:'http://localhost:8000/show/movies/all/genere=comedia&page=1'
+                },
+        
+            },
+            {
                 rating_polularity:{
                     message:'Muestra las 25 peliculas con rating mas altos por cada pagina (descnedente de mayor a menor)',
                     endpoint:'http://localhost:8000/show/rating/page=1'

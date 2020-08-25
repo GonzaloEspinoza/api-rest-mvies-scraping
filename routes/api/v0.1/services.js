@@ -37,6 +37,9 @@ route.get('/show/movie/idmovie=:idmovie', Movies.ShowUrlMovies)
 
 
 
+// mostrar todas las peliculas pertenecientes a un genero
+route.get('/show/movies/all/genere=:genere&page=:page', Movies.ShowAllMoviesForGenere);
+
 
 // info config data initial server movies
 const ConfigData = require('./configServerData');

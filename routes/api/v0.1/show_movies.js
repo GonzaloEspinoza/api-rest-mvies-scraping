@@ -114,10 +114,32 @@ const ShowUrlMovies=async(req, res)=>{
 }
 
 
+const ShowAllMoviesForGenere = async ( req, res )=>{
+        var pag = parseInt(req.params.page);
+        var page = !pag?1:pag;
+        var skip1 = (page-1)*500;
+        var limit1 = 500;
+        
+        var genere = req.params.genere
+        if(!genere)res.status(400).send({error:'se require el genero'})
+    
+       const movies = await Movie.find({genere:genere})
+                            .skip(skip1)
+                            .limit(limit1)
+                            .exec();
+    
+        const totalResults = await movies.length;
+    
+        res.status(200).send({totalResults,movies})
+        
+    }
+
+
 module.exports={
     ShowMovies,
     RatingPopularity,
     YearRelease,
     YearReleaseSpecific,
-    ShowUrlMovies
+    ShowUrlMovies,
+    ShowAllMoviesForGenere
 }
