@@ -1,5 +1,7 @@
 const ModelMovie =  require('../database/collections/movies');
 
+const MoviesDestacados = require('./pruebas_graphql/recientes')
+
 const getMovies = require('./utils/getMoviesForGenere');
 const getDetailMovie = require('./utils/getDetail');
 const { model } = require('mongoose');
@@ -50,11 +52,13 @@ const getUrlMovies=async(urlsMovie)=>{
 // upload movie ::
 // genreid: 'XmzUq'
 const UploadmoviesDetail = async()=>{
-    let genreid='JggUN';
-    let firts = 100;
-    let offset = 50;
+    let genreid='X1dUw';
+    let firts = 50;
+    let offset = 0;
 
-    const dataMovies = await getMovies.getMovies(genreid,firts,offset);
+    // const dataMovies = await getMovies.getMovies(genreid,firts,offset);
+    const dataMovies = await MoviesDestacados();
+    
     // console.log('---upload movies');
     // console.log(dataMovies);
 

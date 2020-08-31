@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 
+// const query = `query($term: String!, $first: Int!) { ...} --> For search
 
 
 const query = `query($term: String!, $first: Int!) {
@@ -13,6 +14,7 @@ const query = `query($term: String!, $first: Int!) {
                     rating
                     releaseDate
                     poster
+                    
                 
                 }
              
@@ -41,6 +43,7 @@ const query = `query($term: String!, $first: Int!) {
             let res = await fetch(url, params);
             res = await res.json();
             console.log(res.data.results);
+            // console.log(res);
             // return <res className="data results"></res>;
             
         } catch (error) {

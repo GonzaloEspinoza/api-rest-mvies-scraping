@@ -47,8 +47,8 @@ const RatingPopularity = async(req, res)=>{
 const YearRelease =async (req,res) =>{
     var pag = parseInt(req.params.page) 
     var page = !pag?1:pag;
-    var skit1 = (page-1)*50;
-    var limit1=50;
+    var skit1 = (page-1)*100;
+    var limit1=100;
 
   const movies = await Movie.find({}).sort({yearRelease:-1})
                     .skip(skit1)
@@ -63,8 +63,8 @@ const YearReleaseSpecific = async(req, res)=>{
     var year = parseInt(req.query.year);
     var pag = parseInt(req.query.page);
     var page = !pag?1:pag;
-    var skit1 = (page-1)*50;
-    var limit1=50;
+    var skit1 = (page-1)*100;
+    var limit1=100;
     console.log(typeof(year));
 
     const movies = await Movie.find({yearRelease:year})
