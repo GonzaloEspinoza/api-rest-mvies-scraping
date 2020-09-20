@@ -9,6 +9,7 @@ const InitialDataServer = new Schema({
     hostGenere:String,
     hostMoviedetail: String,
     hostGraphQlServer:String,
+    hostNameSeverRecomendedMovie:String,
     headers:Object,
     detailGraphqlQuery:String,
     detailGraphqlVariables:Object,

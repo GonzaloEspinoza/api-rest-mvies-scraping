@@ -25,7 +25,7 @@ query {
                             first: 49) {
                         ...MovieFields
                     },
-                bestOf2017: allMovies (
+                bestOf2019: allMovies (
                 filter: { 
                     releaseYear: 2017 }, 
                     order: { rating: "DESC" },
@@ -56,7 +56,7 @@ query {
 `
 // const variables = {genreId: "XmzUq", first: 50, offset: 0};
 // https://v2.pelisplusgt.com/graph
-var url = 'https://v2.pelisplusgt.com/graph',
+var url = 'https://pelisplus.li/graph',
     options = {
         method: 'POST',
         headers: {
@@ -71,9 +71,11 @@ async function main(){
     try {
         let res = await fetch(url, options);
         res = await res.json();
-        console.log(res.data.highlighted);
+        // console.log(res.data);
+        // console.log(res.data.highlighted.length);
+        // console.log(res.data);
+        // return res.data.releasedRecently;
         return res.data.highlighted.movies;
-        // console.log(res.data.movies.length);
     } catch (e) {
         console.log(e);
     }

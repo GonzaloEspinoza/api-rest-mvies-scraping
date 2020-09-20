@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-
+const GlobalConfig = require('../../config/globalConfigServerPeliplusgt.json');
 
 
 const getDetailMovie = async(stringIdMovie)=>{
@@ -34,8 +34,8 @@ const getDetailMovie = async(stringIdMovie)=>{
       }
     `
     const variables = {movieId: stringIdMovie, first: 1, offset: 0};
-    // https://v2.pelisplusgt.com/graph
-    var url = 'https://v2.pelisplusgt.com/graph',
+    //url = https://v2.pelisplusgt.com/graph
+    var url = GlobalConfig.dataServerConfig.hostGraphQlServer,
         options = {
             method: 'POST',
             headers: {

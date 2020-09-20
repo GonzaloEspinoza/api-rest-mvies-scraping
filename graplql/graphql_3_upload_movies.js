@@ -1,4 +1,5 @@
 const ModelMovie =  require('../database/collections/movies');
+const GlobalConfig = require('../config/globalConfigServerPeliplusgt.json');
 
 const MoviesDestacados = require('./pruebas_graphql/recientes')
 
@@ -21,19 +22,20 @@ const getGenres=async(arrayGenres)=>{
 
 const getPoster1=(stringPoster)=>{
     if(!stringPoster)return stringPoster;
-    let aux =`https://v2.pelisplusgt.com/_images/posters/${stringPoster}/280x420.jpg`;
+    let aux =`${GlobalConfig.dataServerConfig.hostImgasShow}/${stringPoster}/280x420.jpg`;
     return aux;
 }
 
 const getPoster3=(stringPoster)=>{
     if(!stringPoster)return stringPoster;
-    let aux =`https://v2.pelisplusgt.com/_images/posters/${stringPoster}/380x570.jpg`;
+    let aux =`${GlobalConfig.dataServerConfig.hostImgasShow}/${stringPoster}/380x570.jpg`;
     return aux;
 }
 
 const getUrlDetailMovieOriginal=async(idMovie, slugMovie)=>{
     if(!idMovie || !slugMovie)return null;
-    let urlDetailMovieOriginal = await  `https://v2.pelisplusgt.com/pelicula/${slugMovie}-${idMovie}`;
+    // let urlDetailMovieOriginal = await  `https://v3.pelisplusgt.com/pelicula/${slugMovie}-${idMovie}`;
+    let urlDetailMovieOriginal = await  `${GlobalConfig.dataServerConfig.hostMoviedetail}/${slugMovie}-${idMovie}`;
     return urlDetailMovieOriginal;
 
 }
@@ -43,7 +45,8 @@ const getUrlMovies=async(urlsMovie)=>{
     var aux=[];
     for (let i = 0; i < urlsMovie.length; i++) {
         
-        let a = await "https://v2.pelisplusgt.com"+urlsMovie[i].url;
+        // let a = await "https://v3.pelisplusgt.com"+urlsMovie[i].url;
+        let a = await GlobalConfig.dataServerConfig.hostServer+urlsMovie[i].url;
         urlsMovie[i].url=await a;
     }
     return urlsMovie;
@@ -52,13 +55,14 @@ const getUrlMovies=async(urlsMovie)=>{
 // upload movie ::
 // genreid: 'XmzUq'
 const UploadmoviesDetail = async()=>{
-    let genreid='X1dUw';
+    let genreid='GwaU8';
     let firts = 50;
     let offset = 0;
 
-    // const dataMovies = await getMovies.getMovies(genreid,firts,offset);
-    const dataMovies = await MoviesDestacados();
+    const dataMovies = await getMovies.getMovies(genreid,firts,offset);
+    // const dataMovies = await MoviesDestacados();
     
+
     // console.log('---upload movies');
     // console.log(dataMovies);
 
@@ -68,10 +72,10 @@ const UploadmoviesDetail = async()=>{
             const detailMovie = await getDetailMovie.getDetailMovie(dataMovies[i].id);
             // console.log(detailMovie)
            var movie = await new ModelMovie({
-                id2:detailMovie.id,
-                title:detailMovie.title,
-                slug:detailMovie.slug,
-                release_date: detailMovie.releaseDate,
+                id2:await detailMovie.id,
+                title:await detailMovie.title,
+                slug:await detailMovie.slug,
+                release_date: await detailMovie.releaseDate,
                 yearRelease:await getYearRelease(detailMovie.releaseDate),
                 runtime:detailMovie.duration,
                 genere: await getGenres(detailMovie.genres),

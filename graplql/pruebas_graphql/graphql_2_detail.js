@@ -2,6 +2,7 @@ const fetch = require('node-fetch');
 
 const query = `query ($movieId: ID!) {
     movie: Movie(id: $movieId) {
+      id
       title
       poster
       duration
@@ -29,7 +30,7 @@ const query = `query ($movieId: ID!) {
 `
 const variables = {movieId: "WBTVn", first: 1, offset: 0};
 // https://v2.pelisplusgt.com/graph
-var url = 'https://v2.pelisplusgt.com/graph',
+var url = 'https://v3.pelisplusgt.com/graph',
     options = {
         method: 'POST',
         headers: {
@@ -46,7 +47,7 @@ async function main(){
     try {
         let res = await fetch(url, options);
         res = await res.json();
-        // console.log(res.data);
+        console.log(res.data);
         var r = res.data.movie
         console.log(r)
     } catch (e) {
