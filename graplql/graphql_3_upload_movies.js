@@ -55,9 +55,9 @@ const getUrlMovies=async(urlsMovie)=>{
 // upload movie ::
 // genreid: 'XmzUq'
 const UploadmoviesDetail = async()=>{
-    let genreid='GwaU8';
+    let genreid='JggUN';
     let firts = 50;
-    let offset = 0;
+    let offset = 150;
 
     const dataMovies = await getMovies.getMovies(genreid,firts,offset);
     // const dataMovies = await MoviesDestacados();

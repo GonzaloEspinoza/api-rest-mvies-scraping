@@ -33,7 +33,7 @@ const uploadMmovie= require('./scraping/pelisPlus_gt_com/upload_movies');
 
 // ............grphql
 const uploadData = require('./graplql/graphql_3_upload_movies');
-uploadData();
+// uploadData();
 
 
 // uploda dataserver initial data
