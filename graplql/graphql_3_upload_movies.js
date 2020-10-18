@@ -59,8 +59,8 @@ const UploadmoviesDetail = async()=>{
     let firts = 50;
     let offset = 150;
 
-    const dataMovies = await getMovies.getMovies(genreid,firts,offset);
-    // const dataMovies = await MoviesDestacados();
+    // const dataMovies = await getMovies.getMovies(genreid,firts,offset);
+    const dataMovies = await MoviesDestacados();
     
 
     // console.log('---upload movies');

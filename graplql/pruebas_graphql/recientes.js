@@ -73,9 +73,9 @@ async function main(){
         res = await res.json();
         // console.log(res.data);
         // console.log(res.data.highlighted.length);
-        // console.log(res.data);
-        // return res.data.releasedRecently;
-        return res.data.highlighted.movies;
+        console.log(res.data);
+        return res.data.releasedRecently;
+        // return res.data.highlighted.movies;
     } catch (e) {
         console.log(e);
     }
