@@ -7,20 +7,53 @@ const Movie = require('../../../database/collections/movies');
 const  ShowMovies = async (req,res)=>{
     var pag = parseInt(req.params.page);
     var page = !pag?1:pag;
-    var skip1 = (page-1)*50;
-    var limit1 = 50;
+    var skip1 = (page-1)*25;
+    var limit1 = 25;
     
-    var genere = req.params.genere
+    const genere = req.params.genere
     if(!genere)res.status(400).send({error:'se require el genero'})
+   
+    
 
-   const movies = await Movie.find({genere:genere})
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+      
+    const numOpcion = getRandomInt(2);
+    console.log(numOpcion);
+    switch (numOpcion) {
+        case 0:
+            var movies = await Movie.find({genere:genere})
+                        .sort({ratings_popularity:-1})
                         .skip(skip1)
                         .limit(limit1)
                         .exec();
 
-    const totalResults = await movies.length;
+            var totalResults = await movies.length;
+            res.status(200).send({totalResults,movies})
+            break;
+        case 1:
+            var movies = await Movie.find({genere:genere})
+                        .sort({yearRelease:-1})
+                        .skip(skip1)
+                        .limit(limit1)
+                        .exec();
 
-    res.status(200).send({totalResults,movies})
+            var totalResults = await movies.length;
+            res.status(200).send({totalResults,movies})
+            break;
+
+        default:
+            var movies = await Movie.find({genere:genere})
+                        .sort({ratings_popularity:-1})
+                        .skip(skip1)
+                        .limit(limit1)
+                        .exec();
+
+            var totalResults = await movies.length;
+            res.status(200).send({totalResults,movies})
+            break;
+    }
     
 }
 
@@ -31,15 +64,45 @@ const RatingPopularity = async(req, res)=>{
     var skit1 = (page-1)*50;
     var limit1=50;
 
+   function getRandomInt(max){
+       return Math.floor(Math.random()* Math.floor(max))
+   }
+   const nunOpcion = getRandomInt(2);
+   console.log(nunOpcion);
+   switch (nunOpcion) {
+       case 0:
+            var movies = await Movie.find({})
+            .sort({ratings_popularity:-1})
+            .skip(skit1)
+            .limit(limit1)
+            .exec();
 
-    var movies = await Movie.find({}).sort({ratings_popularity:-1})
-                .skip(skit1)
-                .limit(limit1)
-                .exec();
+            var totalResults = await movies.length;
+            res.status(200).send({totalResults,movies});
+           break;
+        case  1:
+            var movies = await Movie.find({}).sort({yearRelease:-1})
+            .skip(skit1)
+            .limit(limit1)
+            .exec();
+
+            var totalResults = await movies.length;
+            res.status(200).send({totalResults,movies});
+            break
+       default:
+        var movies = await Movie.find({})
+            .sort({ratings_popularity:-1})
+            .skip(skit1)
+            .limit(limit1)
+            .exec();
+
+            var totalResults = await movies.length;
+            res.status(200).send({totalResults,movies});
+
+           break;
+   }
+
     
-    const totalResults = await movies.length;
-    
-    res.status(200).send({totalResults,movies});
     
 }
 
@@ -66,6 +129,7 @@ const YearReleaseSpecific = async(req, res)=>{
     var skit1 = (page-1)*100;
     var limit1=100;
     console.log(typeof(year));
+ 
 
     const movies = await Movie.find({yearRelease:year})
                     .skip(skit1)
@@ -124,6 +188,7 @@ const ShowAllMoviesForGenere = async ( req, res )=>{
         if(!genere)res.status(400).send({error:'se require el genero'})
     
        const movies = await Movie.find({genere:genere})
+                            .sort({ratings_popularity:-1})
                             .skip(skip1)
                             .limit(limit1)
                             .exec();
