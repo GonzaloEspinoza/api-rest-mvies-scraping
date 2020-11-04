@@ -1,0 +1,11 @@
+{
+    "dataServerConfig":{
+        "hostServer":"https://pelisplus.li",
+        "hostGenere":"https://pelisplus.li/genero",
+        "hostMoviedetail": "https://pelisplus.li/pelicula",
+        "hostGraphQlServer": "https://pelisplus.li/graph",
+        "hostImgasShow" :"https://pelisplus.li/_images/posters",
+        "hostNameSeverRecomendedMovie" : "mystream.to"
+    
+    }
+}
