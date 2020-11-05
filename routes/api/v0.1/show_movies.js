@@ -7,8 +7,8 @@ const Movie = require('../../../database/collections/movies');
 const  ShowMovies = async (req,res)=>{
     var pag = parseInt(req.params.page);
     var page = !pag?1:pag;
-    var skip1 = (page-1)*25;
-    var limit1 = 25;
+    var skip1 = (page-1)*20;
+    var limit1 = 20;
     
     const genere = req.params.genere
     if(!genere)res.status(400).send({error:'se require el genero'})
@@ -188,12 +188,21 @@ const ShowAllMoviesForGenere = async ( req, res )=>{
         if(!genere)res.status(400).send({error:'se require el genero'})
     
        const movies = await Movie.find({genere:genere})
-                            .sort({ratings_popularity:-1})
+                            .sort({yearRelease:-1})
                             .skip(skip1)
                             .limit(limit1)
                             .exec();
     
         const totalResults = await movies.length;
+
+        // var m= await movies.map((d,i)=>{
+        //    return{
+        //        title:d.title,
+        //        rating_popularity:d.ratings_popularity,
+        //        yearRelease: d.yearRelease
+        //     }
+
+        // })
     
         res.status(200).send({totalResults,movies})
         

@@ -23,7 +23,7 @@ Route.post('/token/new/client', VerifyTokenFirebase.registerTokenFirebase);
 // para consumir un recurso o un endpint se debe enviar lo siguiente:
 // token en el header --> authorization,  Bearer [token], nameaplication.
 
-// muestra las peliculas  por genero
+// muestra las peliculas las primeras 20 por genero
 Route.get('/movies/show/genere=:genere&page=:page/nameaplication=:nameaplication',
             VerifyTokenFirebase.verifyTokemFirebase,
             AccesVerifyAplication,
@@ -75,7 +75,12 @@ Route.get('/movies/show/all/genere=:genere&page=:page/nameaplication=:nameaplica
 
 // info config data initial server movies
 const ConfigData = require('./configServerData');
-Route.get('/config/data/server/movies',ConfigData.DataServerInitial)
+Route.get('/config/data/server/movies',
+            // VerifyTokenFirebase.verifyTokemFirebase,
+            // AccesVerifyAplication,
+            ConfigData.DataServerInitial
+          );
+
 
 
 
