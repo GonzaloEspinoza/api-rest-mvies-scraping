@@ -154,7 +154,18 @@ const ShowAllMoviesForGenere = async ( req, res )=>{
         
         res.status(200).send({totalResults,movies})
         
+}
+
+
+const ShowMovieForId =async (req, res)=>{
+
+    var result = await Movie.findById({_id:req.params.idmovie});
+    if(!result) return res.status(403).send({error:"no found", message:"idMovie no encontrado"});
+    if(result){
+        res.status(200).send({totalResults:1, movies:[result]});
     }
+}
+
 
 
 module.exports={
@@ -163,5 +174,6 @@ module.exports={
     YearRelease,
     YearReleaseSpecific,
     ShowUrlMovies,
-    ShowAllMoviesForGenere
+    ShowAllMoviesForGenere,
+    ShowMovieForId
 }

@@ -73,6 +73,17 @@ Route.get('/movies/show/all/genere=:genere&page=:page/nameaplication=:nameaplica
         );
 
 
+// muestra la data de una sola pelicula por medio del idMovie
+Route.get('/movie/show/idmovie=:idmovie',
+
+
+            ShowMovies.ShowMovieForId
+          );
+
+
+
+
+
 // info config data initial server movies
 const ConfigData = require('./configServerData');
 Route.get('/config/data/server/movies',
@@ -81,6 +92,9 @@ Route.get('/config/data/server/movies',
             ConfigData.DataServerInitial
           );
 
+
+
+  
 
 
 
