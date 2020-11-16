@@ -83,7 +83,11 @@ Route.get('/movie/show/idmovie=:idmovie',
 
 
 //(Serach) muestra los resultados de un query search 
-Route.get('/movie/search/query=:query', ShowMovies.searchMovieForTitle)
+Route.get('/movie/search/query=:query/nameaplication=:nameaplication', 
+
+            AccesVerifyAplication,
+           ShowMovies.searchMovieForTitle
+          );
 
 
 // info config data initial server movies

@@ -55,8 +55,14 @@ const RatingPopularity = async(req, res)=>{
 
 
 const YearRelease =async (req,res) =>{
+    
+    var pageRandom =await Math.floor((Math.random()*3)+1);
+
     var pag = parseInt(req.params.page) 
-    var page = !pag?1:pag;
+    // var page = !pag?1:pag;
+    // var skit1 = (page-1)*20;
+    // var page = !pag?pageRandom:pag;
+    var page = pageRandom;
     var skit1 = (page-1)*20;
     var limit1=20;
 
