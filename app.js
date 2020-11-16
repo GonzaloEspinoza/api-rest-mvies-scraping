@@ -35,6 +35,10 @@ const uploadMmovie= require('./scraping/pelisPlus_gt_com/upload_movies');
 // uploadMmovie.UploadMovie();
 
 
+// import replace host image url
+const replace = require('./utils/resplaceHost_image/replaceHost_ImageUrl');
+// replace();
+
 // ............grphql
 const uploadData = require('./graplql/graphql_3_upload_movies');
 // uploadData();
@@ -42,6 +46,7 @@ const uploadData = require('./graplql/graphql_3_upload_movies');
 
 // uploda dataserver initial data
 const uploadDataInitialConfigServer = require('./database/collections/data_server_movies/uploadInitialData');
+const replaceHostImage = require('./utils/resplaceHost_image/replaceHost_ImageUrl');
 // uploadDataInitialConfigServer();
 
 app.listen(PORT,()=>{

@@ -7,8 +7,8 @@ const Movie = require('../../../database/collections/movies');
 const  ShowMovies = async (req,res)=>{
     var pag = parseInt(req.params.page);
     var page = !pag?1:pag;
-    var skip1 = (page-1)*20;
-    var limit1 = 20;
+    var skip1 = (page-1)*15;
+    var limit1 = 15;
     
     var genere = req.params.genere
     if(!genere)res.status(400).send({error:'se require el genero'})
@@ -57,8 +57,8 @@ const RatingPopularity = async(req, res)=>{
 const YearRelease =async (req,res) =>{
     var pag = parseInt(req.params.page) 
     var page = !pag?1:pag;
-    var skit1 = (page-1)*100;
-    var limit1=100;
+    var skit1 = (page-1)*20;
+    var limit1=20;
 
   const movies = await Movie.find({}).sort({yearRelease:-1})
                     .skip(skit1)
@@ -157,6 +157,8 @@ const ShowAllMoviesForGenere = async ( req, res )=>{
 }
 
 
+
+
 const ShowMovieForId =async (req, res)=>{
 
     var result = await Movie.findById({_id:req.params.idmovie});
@@ -167,6 +169,38 @@ const ShowMovieForId =async (req, res)=>{
 }
 
 
+// endpint para la busque da peliculas por el nombre;
+ const searchMovieForTitle = async (req, res)=>{
+    console.log(req.params.query);
+
+    const query = req.params.query;
+
+    const expReg = new RegExp(`${query}`, 'gi');
+
+    // var aux = [];
+
+    //  const resultMovies = await Movie.find({title: "Proyecto Power"});
+     const resultMovies = await Movie.find({title: expReg}).skip(0).limit(10);
+
+    // (await resultMovies).forEach((d)=>{
+    //     if( expReg.test((d.title).toLowerCase()) ){
+    //         aux = [...aux, d.title]
+    //     }
+    // })
+    var movies = await resultMovies.map(item=>{
+        return {
+            title              : item.title,
+            id2                : item.id2,
+            id                 : item.id,
+            yearRelease        : item.yearRelease,
+            poster_url         : item.poster_url,
+            ratings_popularity : item.ratings_popularity
+        }
+    })
+    res.status(200).send({results:resultMovies.length, movies});
+
+ }
+
 
 module.exports={
     ShowMovies,
@@ -175,5 +209,6 @@ module.exports={
     YearReleaseSpecific,
     ShowUrlMovies,
     ShowAllMoviesForGenere,
-    ShowMovieForId
+    ShowMovieForId,
+    searchMovieForTitle
 }
