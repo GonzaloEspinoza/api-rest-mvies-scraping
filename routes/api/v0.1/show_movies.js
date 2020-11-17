@@ -7,8 +7,8 @@ const Movie = require('../../../database/collections/movies');
 const  ShowMovies = async (req,res)=>{
     var pag = parseInt(req.params.page);
     var page = !pag?1:pag;
-    var skip1 = (page-1)*20;
-    var limit1 = 20;
+    var skip1 = (page-1)*10;
+    var limit1 = 10;
     
     const genere = req.params.genere
     if(!genere)res.status(400).send({error:'se require el genero'})
@@ -61,8 +61,8 @@ const  ShowMovies = async (req,res)=>{
 const RatingPopularity = async(req, res)=>{
     var pag = parseInt(req.params.page) 
     var page = !pag?1:pag;
-    var skit1 = (page-1)*50;
-    var limit1=50;
+    var skit1 = (page-1)*10;
+    var limit1=10;
 
    function getRandomInt(max){
        return Math.floor(Math.random()* Math.floor(max))
@@ -108,10 +108,16 @@ const RatingPopularity = async(req, res)=>{
 
 
 const YearRelease =async (req,res) =>{
+    var pageRandom =await Math.floor((Math.random()*4)+1);
+
     var pag = parseInt(req.params.page) 
-    var page = !pag?1:pag;
-    var skit1 = (page-1)*100;
-    var limit1=100;
+    // var page = !pag?1:pag;
+    // var skit1 = (page-1)*100;
+    // var limit1=100;
+    var page = pageRandom;
+    var skit1 = (page-1)*15;
+    var limit1=15;
+
 
   const movies = await Movie.find({}).sort({yearRelease:-1})
                     .skip(skit1)

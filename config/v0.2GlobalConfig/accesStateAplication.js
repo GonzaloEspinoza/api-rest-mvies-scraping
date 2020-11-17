@@ -3,7 +3,7 @@
 const ArrayObjectApp = [
     {
         nameApliction : "fanpelis",
-        state         : true
+        state         : false
     },{
         nameApliction : "pelisdreep",
         state         : false
