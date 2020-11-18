@@ -36,6 +36,7 @@ const uploadMmovie= require('./scraping/pelisPlus_gt_com/upload_movies');
 
 
 // import replace host image url
+// const replaceHostImage = require('./utils/resplaceHost_image/replaceHost_ImageUrl');
 const replace = require('./utils/resplaceHost_image/replaceHost_ImageUrl');
 // replace();
 
@@ -46,8 +47,8 @@ const uploadData = require('./graplql/graphql_3_upload_movies');
 
 // uploda dataserver initial data
 const uploadDataInitialConfigServer = require('./database/collections/data_server_movies/uploadInitialData');
-const replaceHostImage = require('./utils/resplaceHost_image/replaceHost_ImageUrl');
 // uploadDataInitialConfigServer();
+
 
 app.listen(PORT,()=>{
     console.log(`Server on port: ${PORT}`)
