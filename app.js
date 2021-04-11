@@ -47,7 +47,7 @@ const uploadData = require('./graplql/graphql_3_upload_movies');
 
 // uploda dataserver initial data
 const uploadDataInitialConfigServer = require('./database/collections/data_server_movies/uploadInitialData');
-// uploadDataInitialConfigServer();
+uploadDataInitialConfigServer();
 
 
 app.listen(PORT,()=>{
