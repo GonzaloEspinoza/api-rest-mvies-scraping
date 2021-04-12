@@ -47,8 +47,12 @@ const uploadData = require('./graplql/graphql_3_upload_movies');
 
 // uploda dataserver initial data
 const uploadDataInitialConfigServer = require('./database/collections/data_server_movies/uploadInitialData');
-uploadDataInitialConfigServer();
+// uploadDataInitialConfigServer();
 
+
+// ----test new graphqp
+const main= require('./graplql/2-graphql/graphql-test-1');
+// main();
 
 app.listen(PORT,()=>{
     console.log(`Server on port: ${PORT}`)

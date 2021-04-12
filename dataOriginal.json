@@ -1,0 +1,37 @@
+{
+    "totalResults": 10,
+    "movies": [
+        {
+            "genere": [
+                "accion",
+                "aventura",
+                "ciencia-ficcion",
+                "suspenso"
+            ],
+            "spoken_languages": [],
+            "urls_movie": [],
+            "_id": "6027fe9653bfa432e0e3872c",
+            "id2": "qohNQ",
+            "title": "El Origen",
+            "slug": "inception",
+            "release_date": "2010-07-16",
+            "yearRelease": 2010,
+            "runtime": "148",
+            "poster_url": "https://pelisplusgo.com/_images/posters/EoDXriV9d8UcoWM4riG7pbi/280x420.jpg",
+            "poster2_url": "",
+            "poster3_url": "https://pelisplusgo.com/_images/posters/EoDXriV9d8UcoWM4riG7pbi/380x570.jpg",
+            "urlDetailMovieOriginal": "https://pelisplusgo.com/pelicula/inception-qohNQ",
+            "overview_movie": "Dom Cobb (DiCaprio) es un experto en el arte de apropiarse, durante el sueño, de los secretos del subconsciente ajeno. La extraña habilidad de Cobb le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también lo ha condenado a ser un fugitivo y, por consiguiente, a renunciar a llevar una vida normal. Su única oportunidad para cambiar de vida será hacer exactamente lo contrario de lo que ha hecho siempre: la incepción, que consiste en implantar una idea en el subconsciente en lugar de sustraerla. Sin embargo, su plan se complica debido a la intervención de alguien que parece predecir cada uno de sus movimientos, alguien a quien sólo Cobb podrá descubrir.",
+            "Director": "",
+            "writer": "",
+            "actors": "",
+            "country": "",
+            "awards": "",
+            "ratings_popularity": "8.8",
+            "type": "",
+            "production": "",
+            "recentlyAdded": "2021-02-13T16:30:14.462Z",
+            "__v": 0
+        }
+    ]
+}
