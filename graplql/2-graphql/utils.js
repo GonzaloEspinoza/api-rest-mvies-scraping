@@ -1,9 +1,12 @@
 
 
 const getUrlImage =(coverPath)=>{
+                  // https://static.esplay.io/movie/cover/original/
     var urlImage = `https://static.esplay.io/movie/cover/original/${coverPath}`;
+    // console.log(urlImage)
     return urlImage;
 }
+
 
 const getOverview = async (overview)=>{
 

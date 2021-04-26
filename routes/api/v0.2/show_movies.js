@@ -3,7 +3,7 @@
 const Movie = require('../../../database/collections/movies');
 
 
-
+// https://mybucket-ecommerce2.s3-sa-east-1.amazonaws.com/icon-512x512-change-pelisdreep.png
 const  ShowMovies = async (req,res)=>{
     var pag = parseInt(req.params.page);
     var page = !pag?1:pag;
@@ -20,7 +20,11 @@ const  ShowMovies = async (req,res)=>{
                         .exec();
 
     const totalResults = await movies.length;
+    for(var i=0;i<movies.length;i++){
+        movies[i].poster_url='https://mybucket-ecommerce2.s3-sa-east-1.amazonaws.com/icon-512x512-change-pelisdreep.png';
+        movies[i].poster3_url='https://mybucket-ecommerce2.s3-sa-east-1.amazonaws.com/icon-512x512-change-pelisdreep.png';
 
+    }
     //  var m= await movies.map((d,i)=>{
     //        return{
     //            title:d.title,

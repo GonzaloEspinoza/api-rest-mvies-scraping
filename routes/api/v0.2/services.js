@@ -5,6 +5,8 @@ const Route = express.Router();
 const mongoose = require('mongoose');
 const VerifyTokenFirebase = require('../../../middlewares/verifyTokenFirebase/verifyTokenFirebase')
 
+const UrlVideos = require('./showUrlMovies');
+
 const ShowMovies = require('./show_movies')
 
 const AccesVerifyAplication = require('./verifyStateAplication/verifyStateNameAplication');
@@ -99,7 +101,8 @@ Route.get('/config/data/server/movies',
           );
 
 
-
+// funcion de la api-v01 no borrar
+Route.post('/urls/idmovie', UrlVideos.UrlVideos)
   
 
 

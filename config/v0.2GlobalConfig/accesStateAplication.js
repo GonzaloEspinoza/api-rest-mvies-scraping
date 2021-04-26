@@ -1,4 +1,5 @@
 'use strict'
+// "hostGraphQlServer": "https://api.esplay.io/graphql",
 
 const ArrayObjectApp = [
     {

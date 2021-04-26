@@ -55,9 +55,9 @@ const getUrlMovies=async(urlsMovie)=>{
 // upload movie ::
 // genreid: 'XmzUq'
 const UploadmoviesDetail = async()=>{
-    let genreid='JggUN';
+    let genreid='JRRSO';
     let firts = 50;
-    let offset =350;
+    let offset =500;
 
     const dataMovies = await getMovies.getMovies(genreid,firts,offset);
     // const dataMovies = await MoviesDestacados();
@@ -108,6 +108,29 @@ const UploadmoviesDetail = async()=>{
             
         }
     }
+
+}
+
+
+const  uploadAll =()=>{
+    const idGeneres =[
+            "dq0SV",
+            "J9GSV",
+            "WjZSp",
+            "JgvSB",
+            "WYXS9",
+            "NmKSB",
+            "JP7SK",
+            "JkXSw",
+            "dVbSb",
+            "NZ7So",
+            "JvvSB",
+            "N2LSw",
+            "W4DSL",
+            "dM7SG",
+            "W0qSV",
+            "JzXSP"
+    ]
 
 }
 

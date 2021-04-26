@@ -1,10 +1,11 @@
 {
     "dataServerConfig":{
-        "hostServer":"https://w1.pelisplusgo.com",
-        "hostGenere":"https://w1.pelisplusgo.com/genero",
-        "hostMoviedetail": "https://w1.pelisplusgo.com/pelicula",
-        "hostGraphQlServer": "https://api.esplay.io/graphql",
-        "hostImgasShow" :"https://w1.pelisplusgo.com/_images/posters",
+        "hostServer":"https://www.pelisplus2.io",
+        "hostGenere":"https://www.pelisplus2.io/genero",
+        "hostMoviedetail": "https://www.pelisplus2.io/pelicula",
+        "hostGraphQlServer":"http://192.168.100.9:8000/api/v0.2/urls/idmovie",
+        "hostImgasShow" :"https://www.pelisplus2.io/_images/posters",
         "hostNameSeverRecomendedMovie" : "mystream.to"
     }
 }
+
